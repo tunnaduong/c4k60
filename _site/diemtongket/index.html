@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html>
+  <!-- Trang web được lập trình bởi Dương Tùng Anh - C4K60 Chuyên Hà Nam -->
+<!-- Mọi thông tin chi tiết xin liên hệ https://facebook.com/tunnaduong/ -->
+<html>
+	<head>
+    	<link href="https://c4k60.ga/style.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		  
+<meta name="description" content="Cổng thông tin điện tử lớp 11 Chuyên Nga THPT Chuyên Hà Nam">
+  <meta name="author" content="">
+
+		<!-- Bộ mã Bootstrap 4 -->
+    	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Bộ mã jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+		<!-- Bộ mã Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+		<!-- Bộ mã JavaScript cho Bootstrap 4 -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<!-- Bộ mã riêng cho giao diện trang web -->
+    	<link href="https://v4-alpha.getbootstrap.com/examples/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
+    	<link rel="stylesheet" href="style.css">
+    	<!-- Bộ mã Font Awesome -->
+    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<!-- widget stuff here -->
+<script src="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.16.0/js/okta-sign-in.min.js" type="text/javascript"></script>
+<link href="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.16.0/css/okta-sign-in.min.css" type="text/css" rel="stylesheet"/>
+<link href="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.16.0/css/okta-theme.css" type="text/css" rel="stylesheet"/>
+
+		<title>Điểm tổng kết</title>
+	</head>
+      <link href="https://c4k60.ga/style.css" rel="stylesheet">
+  <body>
+    <div class="container">
+      <div class="header clearfix">
+<nav class="navbar navbar-expand-xl navbar-light">
+        <a class="navbar-brand" href="http://localhost:4000" alt="Điểm tổng kết - Cổng thông tin điện tử C4K60">C4K60</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarLg">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="collapsingNavbarLg">
+        <ul class="navbar-nav">
+<!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
+        Tra cứu
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item " id="diemthi" href="/diemthi">Điểm thi học kỳ 2</a>
+        <a class="dropdown-item active" id="diemtongket" href="/diemtongket">Điểm tổng kết</a>
+        <a class="dropdown-item "  id="hoso" href="/hoso">Hồ sơ học sinh</a>
+        <a class="dropdown-item " id="btvn" href="/baitap">Bài tập về nhà</a>
+      </div>
+    </li>
+            <li class="nav-item">
+                <a class="nav-link " id="thoikhoabieu" href="/thoikhoabieu">Thời khoá biểu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " id="thongbao" href="/thongbaolop">Thông báo lớp</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link " id="thuvien" href="/thuvienanh">Thư viện ảnh</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " id="chat" href="/chat">Chat</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+      </div>
+
+        <h3><i class="fas fa-search"></i> Tra cứu điểm tổng kết - Lớp 10 Chuyên Nga</h3>
+<p><br /></p>
+<table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>Họ và tên</th>
+        <th>Điểm tổng kết</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <tr>
+                        <td>1</td>
+                        <td>Dương Huyền Anh</td>
+        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal1" data-toggle="modal" onclick="pos(&apos;1&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Dương Tùng Anh</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal2" data-toggle="modal" onclick="pos(&apos;2&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ngô Phương Anh</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal3" data-toggle="modal" onclick="pos(&apos;3&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Nguyễn Đạt Thái Dương</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal4" data-toggle="modal" onclick="pos(&apos;4&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Nguyễn Anh Bảo Hân</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal5" data-toggle="modal" onclick="pos(&apos;5&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Nguyễn Đặng Hải</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal6" data-toggle="modal" onclick="pos(&apos;6&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Bùi Thu Hiền</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal7" data-toggle="modal" onclick="pos(&apos;7&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Nguyễn Thuý Hiền</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal8" data-toggle="modal" onclick="pos(&apos;8&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Phạm Thu Hiền</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal9" data-toggle="modal" onclick="pos(&apos;9)" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Hồ Trung Hiếu</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal10" data-toggle="modal" onclick="pos(&apos;10&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Trần Thị Diệu Huyền</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal11" data-toggle="modal" onclick="pos(&apos;11&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Phạm Bảo Sơn Hoa</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal12" data-toggle="modal" onclick="pos(&apos;12&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Dư Thanh Hoài</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal13" data-toggle="modal" onclick="pos(&apos;13&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Phạm Thị Thiên Hương</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal14" data-toggle="modal" onclick="pos(&apos;14&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Lã Kim Huệ</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal15" data-toggle="modal" onclick="pos(&apos;15&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Nguyễn Quang Huy</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal16" data-toggle="modal" onclick="pos(&apos;16&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Nguyễn Minh Khôi</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;17&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Lê Hoàng Tùng Lâm</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;18&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>Bùi Ngọc Lĩnh</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;19&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Lê Kim Liên</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;20&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>Đinh Thuỳ Linh</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;21&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>Nguyễn Khánh Linh</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;22&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>Nguyễn Đức Mạnh</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;23&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>Đỗ Thảo Nguyên</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;24&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>Đào Thu Phương</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;25&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>Vũ Minh Quang</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;26&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>Đỗ Hồng Quân</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;27&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>Đan Thị Phương Thảo</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;28&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>29</td>
+                        <td>Dương Phương Thảo</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;29&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>30</td>
+                        <td>Nguyễn Minh Thư</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;30&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>31</td>
+                        <td>Vũ Huyền Trang</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;31&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>32</td>
+                        <td>Nguyễn Thị Ánh Tuyết</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;32&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>33</td>
+                        <td>Trần Khánh Vân</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;33&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>34</td>
+                        <td>Hà Gia Văn</td>
+                        <td><a href="#"><button class="btn btn-success" data-target="#ScoreModal" data-toggle="modal" onclick="pos(&apos;34&apos;),show_student_info()" type="button"><i class="fas fa-eye"></i> Xem</button></a></td>
+                    </tr>
+    </tbody>
+  </table>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Tùng Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>9.0, </td><td>8.0, </td><td></td><td>6.0, </td><td>7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.0, </td><td></td><td>7.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>10.0, </td><td>8.0,7.0, </td><td>8.0,9.0, </td><td>10.0, </td><td>8.9</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>9.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>8.0, </td><td>9.0,8.0, </td><td>7.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>9.0,9.0, </td><td>9.0,9.0,9.0, </td><td>9.0,9.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Ngô Phương Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>7.0, </td><td>8.2</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>9.0, </td><td></td><td>7.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>8.7</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>10.0, </td><td>10.0,9.0, </td><td>7.0,9.0, </td><td>8.0, </td><td>8.5</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>8.0, </td><td>9.0,8.0, </td><td>9.0, </td><td>9.0, </td><td>8.8</td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,9.0, </td><td>9.0,10.0,9.0, </td><td>9.0,9.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>10.0, </td><td>9.0, </td><td>10.0, </td><td>9.6</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Nguyễn Đạt Thái Dương</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>9.0, </td><td>10.0, </td><td></td><td>7.5, </td><td>8.3</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>9.0, </td><td></td><td>7.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>7.0, </td><td>7.0, </td><td>7.0, </td><td>7.0, </td><td>7</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>7.0, </td><td>8.0,7.0, </td><td>8.0,7.0, </td><td>10.0, </td><td>8.2</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>8.0, </td><td>9.0,8.0, </td><td>9.0, </td><td>9.0, </td><td>8.8</td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,9.0, </td><td>10.0,10.0,9.0, </td><td>9.0,9.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>8.0, </td><td>8.0, </td><td>9.0, </td><td>8.6</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Nguyễn Anh Bảo Hân</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>9.0, </td><td>7.0, </td><td></td><td>7.0, </td><td>7.4</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>7.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>8.0, </td><td>8.4</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>10.0, </td><td>9.0,8.0, </td><td>7.0,9.0, </td><td>9.0, </td><td>8.6</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>8.0, </td><td>10.0,8.0, </td><td>9.0, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>9.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.0, </td><td>8.6</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Nguyễn Đặng Hải</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>9.0, </td><td>10.0, </td><td></td><td>8.5, </td><td>8.9</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.0, </td><td></td><td>7.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>7.0, </td><td>8.0, </td><td>8.0, </td><td>8.0, </td><td>7.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>10.0, </td><td>9.0,8.0, </td><td>8.0,9.0, </td><td>9.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>9.0,8.0, </td><td>8.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,9.0, </td><td>10.0,10.0,9.0, </td><td>9.0,9.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>8.0, </td><td>9.0, </td><td>10.0, </td><td>10.0, </td><td>9.6</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Bùi Thu Hiền</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>8.0, </td><td></td><td>8.0, </td><td>8.4</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td></td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>6.0, </td><td>7.0, </td><td>7.0, </td><td>7</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>10.0, </td><td>9.0,8.0, </td><td>8.0,9.0, </td><td>9.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>9.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>8.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>9.0,9.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Nguyễn Thuý Hiền</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>9.0, </td><td></td><td>8.0, </td><td>8.6</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td></td><td></td><td>6.5, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>8.0, </td><td>8.0, </td><td>7.0, </td><td>7.6</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>8.0, </td><td>8.0,7.0, </td><td>7.0,7.0, </td><td>8.0, </td><td>7.5</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>9.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>8.0, </td><td>10.0,8.0, </td><td>10.0, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>9.0,10.0, </td><td>9.0,9.0,9.0, </td><td>9.0,9.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Phạm Thu Hiền</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>7.0, </td><td></td><td>6.5, </td><td>7.3</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td></td><td></td><td>6.5, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>8.0, </td><td>8.0, </td><td>8.0, </td><td>8</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>7.0, </td><td>9.0,8.0, </td><td>8.0,7.0, </td><td>7.0, </td><td>7.5</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>8.0, </td><td>9.0,8.0, </td><td>9.0, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,9.0, </td><td>10.0,10.0,9.0, </td><td>9.0,9.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>10.0, </td><td>9.0, </td><td>9.0, </td><td>10.0, </td><td>9.6</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Hồ Trung Hiếu</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>8.0, </td><td>7.0, </td><td></td><td>8.5, </td><td>8.1</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td></td><td></td><td>7.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>7.0, </td><td>8.0, </td><td>8.0, </td><td>8.0, </td><td>7.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>10.0, </td><td>8.0,8.0, </td><td>9.0,8.0, </td><td>10.0, </td><td>9</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>9.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>9.0,8.0, </td><td>10.0, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>9.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,9.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>8.0, </td><td>8.0, </td><td>9.0, </td><td>8.6</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Trần Thị Diệu Huyền</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>9.0, </td><td></td><td>8.0, </td><td>8.6</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td></td><td></td><td>7.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>8.0, </td><td>8.0, </td><td>7.0, </td><td>7.6</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>10.0, </td><td>10.0,9.0, </td><td>7.0,9.0, </td><td>8.0, </td><td>8.5</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>8.0, </td><td>9.0,8.0, </td><td>10.0, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,9.0, </td><td>9.0,10.0,9.0, </td><td>9.0,9.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>10.0, </td><td>10.0, </td><td>10.0, </td><td>9.0, </td><td>9.6</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Phạm Bảo Sơn Hoa</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>8.0, </td><td></td><td>8.0, </td><td>8.4</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>9.0, </td><td></td><td>7.5, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>9.0, </td><td>10.0, </td><td>8.0, </td><td>8.0, </td><td>8.4</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>7.0,8.0, </td><td>8.0, </td><td>8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>8.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>9.0,10.0, </td><td>9.0,10.0,9.0, </td><td>10.0,9.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>8.0, </td><td>8.0, </td><td>9.0, </td><td>8.6</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal14" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal15" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal16" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal17" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal18" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-graduation-cap"></i> Điểm tổng kết: Dương Huyền Anh</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<table class="table table-bordered table-striped">
+<tr><td>STT </td><td>Môn học </td><td>Điểm miệng </td><td>Điểm 15p </td><td>Điểm 45p </td><td>Điểm HK</td><td>Điểm TB</td></tr>
+<tr><td>1 </td><td>Toán học </td><td>10.0, </td><td>10.0, </td><td></td><td>9.5, </td><td>9.7</td></tr>
+<tr><td>2 </td><td>Vật Lý </td><td>8.5, </td><td></td><td>8.0, </td><td></td><td></td></tr>
+<tr><td>3 </td><td>Hóa Học </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4 </td><td>Sinh học </td><td>8.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>8.9</td></tr>
+<tr><td>5 </td><td>Công nghệ sinh </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6 </td><td>Tin học </td><td>9.0, </td><td>9.0,8.0, </td><td>8.0,8.0, </td><td>10.0, </td><td>8.8</td></tr>
+<tr><td>7 </td><td>Ngữ văn </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8 </td><td>Lịch Sử </td><td></td><td>10.0, </td><td></td><td></td><td></td></tr>
+<tr><td>9 </td><td>Địa lý </td><td>10.0, </td><td>10.0,8.0, </td><td>9.5, </td><td></td><td></td></tr>
+<tr><td>10 </td><td>Tiếng Nga </td><td>10.0,10.0, </td><td>10.0,10.0,9.0, </td><td>9.0,10.0, </td><td></td><td></td></tr>
+<tr><td>11 </td><td>GDCD </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12 </td><td>Công nghệ </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9.0, </td><td>9</td></tr>
+<tr><td>13 </td><td>GDQP-AN </td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14 </td><td>Thể dục </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ </td><td>Đ</td></tr>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+
+
+      <footer class="footer">
+        <p style="float:left">&copy; C4K60 2019. Developed with <i class="fas fa-heart"></i> by <a href="https://facebook.com/tunnaduong/">Tung Anh Duong</a></p>
+        <div style="float:right">
+        <!--GitHub-->
+        <a class="fb-ic mr-3 socialfooter" role="button" href="https://github.com/tunganh03/"><i class="fab fa-lg fa-github"></i></a>
+        <!--Facebook-->
+        <a class="fb-ic mr-3 socialfooter" role="button" href="https://www.facebook.com/groups/c4k60/"><i class="fab fa-lg fa-facebook-f"></i></a>
+        <!--Instagram-->
+        <a class="ins-ic mr-3 socialfooter2" role="button" href="https://instagram.com/c4k60"><i class="fab fa-lg fa-instagram"></i></a>
+        </div>
+      </footer>
+      <!-- Bootstrap nhân JavaScript
+    ================================================== -->
+    <!-- Đặt ở cuối mã trang web để trang tải nhanh hơn -->
+    <!-- IE10 viewport hack cho Surface/bug máy tính bàn Windows 8 -->
+    <script src="https://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5d3510e06d80831228394f5e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  </body>
+</html>

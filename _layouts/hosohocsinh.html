@@ -1,0 +1,233 @@
+---
+layout: default
+---
+    <style>
+        .staticrypt-hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 1px solid #eee;
+        }
+
+        .staticrypt-page {
+            width: 360px;
+            padding: 8% 0 0;
+            margin: auto;
+            box-sizing: border-box;
+        }
+
+        .staticrypt-form {
+            position: relative;
+            z-index: 1;
+            background: #FFFFFF;
+            max-width: 360px;
+            margin: 0 auto 100px;
+            padding: 45px;
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+
+        .staticrypt-form input {
+            outline: 0;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        .staticrypt-form .staticrypt-decrypt-button {
+            text-transform: uppercase;
+            outline: 0;
+            background: #4CAF50;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
+            background: #43A047;
+        }
+
+        .staticrypt-html {
+            height: 100%;
+        }
+
+        .staticrypt-body {
+            margin-bottom: 1em;
+            background: #76b852; /* fallback for old browsers */
+            background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+            background: -moz-linear-gradient(right, #76b852, #8DC26F);
+            background: -o-linear-gradient(right, #76b852, #8DC26F);
+            background: linear-gradient(to left, #76b852, #8DC26F);
+            font-family: "Arial", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .staticrypt-instructions {
+            margin-top: -1em;
+            margin-bottom: 1em;
+        }
+
+        .staticrypt-title {
+            font-size: 1.5em;
+        }
+
+        .staticrypt-footer {
+            position: fixed;
+            height: 20px;
+            font-size: 16px;
+            padding: 2px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-bottom: 0;
+        }
+
+        .staticrypt-footer p {
+            margin: 2px;
+            text-align: center;
+            float: right;
+        }
+
+        .staticrypt-footer a {
+            text-decoration: none;
+        }
+    </style>
+<SCRIPT>
+function passWord(){
+var password = document.getElementById('password').value;
+if (password == "ilovec4k60") {
+document.getElementById('passwordform').style.display = "none";
+document.getElementById('protected').style.display = "block";
+}
+else {
+document.getElementById('wrong').style.display = "block";
+}
+}
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("unlock").click();
+  }
+}); 
+</SCRIPT>
+
+<h3><i class="fas fa-search"></i> Hồ sơ học sinh</h3>
+
+<div class="staticrypt-page" id="passwordform">
+    <div class="staticrypt-form">
+        <div class="staticrypt-instructions">
+            <p class="staticrypt-title"><i class="fas fa-user-lock"></i> Trang được bảo mật</p>
+            <p></p>
+        </div>
+
+        <hr class="staticrypt-hr">
+
+        <form>
+            <input id="password"
+                   type="password"
+                   placeholder="Nhập mật khẩu"/>
+          <p style="color:red;display:none" id="wrong">Mật khẩu sai! Vui lòng thử lại.</p>
+            <input type="button" class="staticrypt-decrypt-button" id="unlock" onClick="passWord()" value="MỞ KHOÁ"/>
+        </form>
+    </div>
+
+</div>
+<br>
+<div id="protected" style="display:none;">
+<article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+     
+      {% if page.tags.size > 0 %}
+      &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}</span>
+      {% endif %}
+    </div>
+<img src="{{ page.avatar }}" alt="Ảnh học sinh: {{ page.title }}" style="  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px; float:left; margin-right:10px;">
+<div style="display: inline-block;">
+    <h2 class="post-title" style="margin-bottom: 0.05rem;"><strong>{{ page.title }}</strong></h2>
+{% if page.shortname %}
+  <h6>({{ page.shortname }})</h6>
+  {% endif %}
+{% if page.birthday %}
+ <p><strong>Ngày sinh</strong>: <time datetime="{{ page.birthday | date: "%Y-%m-%d %H:%M" }}" class="post-meta__date date"><!-- Whitespace added for readability -->
+{% assign m = page.birthday | date: "%-m" %}
+{{ page.birthday | date: "%-d" }}
+{% case m %}
+            {% when  '1' %}Tháng Giêng
+            {% when  '2' %}Tháng Hai
+            {% when  '3' %}Tháng Ba
+            {% when  '4' %}Tháng Tư
+            {% when  '5' %}Tháng Năm
+            {% when  '6' %}Tháng Sáu
+            {% when  '7' %}Tháng Bảy
+            {% when  '8' %}Tháng Tám
+            {% when  '9' %}Tháng Chín
+            {% when '10' %}Tháng Mười
+            {% when '11' %}Tháng Mười Một
+            {% when '12' %}Tháng Mười Hai
+{% endcase %}
+{{ page.birthday | date: "%Y" }}
+</time>
+  {% endif %}
+<br>
+{% if page.phone %}
+<strong>Số điện thoại</strong>: {{ page.phone }}
+  {% endif %}
+<br>
+{% if page.address %}
+<strong>Địa chỉ</strong>: {{ page.address }}</p>
+  {% endif %}
+{% if page.facebook %}
+<button type="button" class="btn btn-info" onclick="location.href='http://facebook.com/{{ page.facebook }}';">
+    <i class="fab fa-facebook-square"></i>
+Facebook</button>
+  {% endif %}
+{% if page.instagram %}
+<button type="button" class="btn btn-info" onclick="location.href='http://instagram.com/{{ page.instagram }}';">
+    <i class="fab fa-instagram"></i>
+Instagram</button>
+  {% endif %}
+{% if page.twitter %}
+<button type="button" class="btn btn-info" onclick="location.href='http://twitter.com/{{ page.instagram }}';">
+    <i class="fab fa-twitter"></i>
+Twitter</button>
+  {% endif %}
+</div>
+  </header>
+
+  <section class="post">
+    {{ content }}
+  </section>
+</article>
+<br>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5d3510e06d80831228394f5e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<br>
+<br>
+</div>

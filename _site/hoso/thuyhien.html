@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <!-- Trang web được lập trình bởi Dương Tùng Anh - C4K60 Chuyên Hà Nam -->
+<!-- Mọi thông tin chi tiết xin liên hệ https://facebook.com/tunnaduong/ -->
+<html>
+	<head>
+    	<link href="https://c4k60.ga/style.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		  
+<meta name="description" content="
+">
+  <meta name="author" content="">
+
+		<!-- Bộ mã Bootstrap 4 -->
+    	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Bộ mã jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+		<!-- Bộ mã Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+		<!-- Bộ mã JavaScript cho Bootstrap 4 -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<!-- Bộ mã riêng cho giao diện trang web -->
+    	<link href="https://v4-alpha.getbootstrap.com/examples/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
+    	<link rel="stylesheet" href="style.css">
+    	<!-- Bộ mã Font Awesome -->
+    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<!-- widget stuff here -->
+<script src="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.16.0/js/okta-sign-in.min.js" type="text/javascript"></script>
+<link href="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.16.0/css/okta-sign-in.min.css" type="text/css" rel="stylesheet"/>
+<link href="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.16.0/css/okta-theme.css" type="text/css" rel="stylesheet"/>
+
+		<title>Nguyễn Thuý Hiền</title>
+	</head>
+      <link href="https://c4k60.ga/style.css" rel="stylesheet">
+  <body>
+    <div class="container">
+      <div class="header clearfix">
+<nav class="navbar navbar-expand-xl navbar-light">
+        <a class="navbar-brand" href="http://localhost:4000" alt="Nguyễn Thuý Hiền - Cổng thông tin điện tử C4K60">C4K60</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarLg">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="collapsingNavbarLg">
+        <ul class="navbar-nav">
+<!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
+        Tra cứu
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item " id="diemthi" href="/diemthi">Điểm thi học kỳ 2</a>
+        <a class="dropdown-item " id="diemtongket" href="/diemtongket">Điểm tổng kết</a>
+        <a class="dropdown-item active"  id="hoso" href="/hoso">Hồ sơ học sinh</a>
+        <a class="dropdown-item " id="btvn" href="/baitap">Bài tập về nhà</a>
+      </div>
+    </li>
+            <li class="nav-item">
+                <a class="nav-link " id="thoikhoabieu" href="/thoikhoabieu">Thời khoá biểu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " id="thongbao" href="/thongbaolop">Thông báo lớp</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link " id="thuvien" href="/thuvienanh">Thư viện ảnh</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " id="chat" href="/chat">Chat</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+      </div>
+
+            <style>
+        .staticrypt-hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 1px solid #eee;
+        }
+
+        .staticrypt-page {
+            width: 360px;
+            padding: 8% 0 0;
+            margin: auto;
+            box-sizing: border-box;
+        }
+
+        .staticrypt-form {
+            position: relative;
+            z-index: 1;
+            background: #FFFFFF;
+            max-width: 360px;
+            margin: 0 auto 100px;
+            padding: 45px;
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+
+        .staticrypt-form input {
+            outline: 0;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        .staticrypt-form .staticrypt-decrypt-button {
+            text-transform: uppercase;
+            outline: 0;
+            background: #4CAF50;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
+            background: #43A047;
+        }
+
+        .staticrypt-html {
+            height: 100%;
+        }
+
+        .staticrypt-body {
+            margin-bottom: 1em;
+            background: #76b852; /* fallback for old browsers */
+            background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+            background: -moz-linear-gradient(right, #76b852, #8DC26F);
+            background: -o-linear-gradient(right, #76b852, #8DC26F);
+            background: linear-gradient(to left, #76b852, #8DC26F);
+            font-family: "Arial", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .staticrypt-instructions {
+            margin-top: -1em;
+            margin-bottom: 1em;
+        }
+
+        .staticrypt-title {
+            font-size: 1.5em;
+        }
+
+        .staticrypt-footer {
+            position: fixed;
+            height: 20px;
+            font-size: 16px;
+            padding: 2px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-bottom: 0;
+        }
+
+        .staticrypt-footer p {
+            margin: 2px;
+            text-align: center;
+            float: right;
+        }
+
+        .staticrypt-footer a {
+            text-decoration: none;
+        }
+    </style>
+<SCRIPT>
+function passWord(){
+var password = document.getElementById('password').value;
+if (password == "ilovec4k60") {
+document.getElementById('passwordform').style.display = "none";
+document.getElementById('protected').style.display = "block";
+}
+else {
+document.getElementById('wrong').style.display = "block";
+}
+}
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("unlock").click();
+  }
+}); 
+</SCRIPT>
+
+<h3><i class="fas fa-search"></i> Hồ sơ học sinh</h3>
+
+<div class="staticrypt-page" id="passwordform">
+    <div class="staticrypt-form">
+        <div class="staticrypt-instructions">
+            <p class="staticrypt-title"><i class="fas fa-user-lock"></i> Trang được bảo mật</p>
+            <p></p>
+        </div>
+
+        <hr class="staticrypt-hr">
+
+        <form>
+            <input id="password"
+                   type="password"
+                   placeholder="Nhập mật khẩu"/>
+          <p style="color:red;display:none" id="wrong">Mật khẩu sai! Vui lòng thử lại.</p>
+            <input type="button" class="staticrypt-decrypt-button" id="unlock" onClick="passWord()" value="MỞ KHOÁ"/>
+        </form>
+    </div>
+
+</div>
+<br>
+<div id="protected" style="display:none;">
+<article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+     
+      
+    </div>
+<img src="thuyhien.jpg" alt="Ảnh học sinh: Nguyễn Thuý Hiền" style="  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px; float:left; margin-right:10px;">
+<div style="display: inline-block;">
+    <h2 class="post-title" style="margin-bottom: 0.05rem;"><strong>Nguyễn Thuý Hiền</strong></h2>
+
+  <h6>(𝓘𝓬𝓱 𝓵𝓲𝓮𝓫𝓮 𝓭𝓲𝓬𝓱)</h6>
+  
+
+ <p><strong>Ngày sinh</strong>: <time datetime="2003-05-17 00:00" class="post-meta__date date"><!-- Whitespace added for readability -->
+
+17
+Tháng Năm
+            
+2003
+</time>
+  
+<br>
+
+<strong>Số điện thoại</strong>: 0912070299
+  
+<br>
+
+<strong>Địa chỉ</strong>: Phủ Lý - Hà Nam</p>
+  
+
+<button type="button" class="btn btn-info" onclick="location.href='http://facebook.com/profile.php?id=100013753718013';">
+    <i class="fab fa-facebook-square"></i>
+Facebook</button>
+  
+
+<button type="button" class="btn btn-info" onclick="location.href='http://instagram.com/hienng2003';">
+    <i class="fab fa-instagram"></i>
+Instagram</button>
+  
+
+</div>
+  </header>
+
+  <section class="post">
+    
+
+  </section>
+</article>
+<br>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5d3510e06d80831228394f5e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<br>
+<br>
+</div>
+
+      <footer class="footer">
+        <p style="float:left">&copy; C4K60 2019. Developed with <i class="fas fa-heart"></i> by <a href="https://facebook.com/tunnaduong/">Tung Anh Duong</a></p>
+        <div style="float:right">
+        <!--GitHub-->
+        <a class="fb-ic mr-3 socialfooter" role="button" href="https://github.com/tunganh03/"><i class="fab fa-lg fa-github"></i></a>
+        <!--Facebook-->
+        <a class="fb-ic mr-3 socialfooter" role="button" href="https://www.facebook.com/groups/c4k60/"><i class="fab fa-lg fa-facebook-f"></i></a>
+        <!--Instagram-->
+        <a class="ins-ic mr-3 socialfooter2" role="button" href="https://instagram.com/c4k60"><i class="fab fa-lg fa-instagram"></i></a>
+        </div>
+      </footer>
+      <!-- Bootstrap nhân JavaScript
+    ================================================== -->
+    <!-- Đặt ở cuối mã trang web để trang tải nhanh hơn -->
+    <!-- IE10 viewport hack cho Surface/bug máy tính bàn Windows 8 -->
+    <script src="https://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5d3510e06d80831228394f5e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  </body>
+</html>

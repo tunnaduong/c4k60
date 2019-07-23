@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<h3><i class="fas fa-search"></i> Tra cứu hồ sơ học sinh - 11 Chuyên Nga</h3>
+<div class="content list">
+{% if site.categories.hoso.posts.size == 0 %}
+  <h2>Không có dữ liệu:)</h2>
+{% else %}
+{% for post in site.categories.hoso %}
+  <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h5>
+  </div>
+{% endfor %}
+{% endif %}
+</div>
+<br>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5d3510e06d80831228394f5e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->

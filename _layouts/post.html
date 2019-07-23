@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<h3><i class="fas fa-bullhorn"></i> Thông báo lớp</h3>
+<article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ page.date | date: "%Y-%m-%d %H:%M" }}" class="post-meta__date date"><!-- Whitespace added for readability -->
+{% assign m = page.date | date: "%-m" %}
+{{ page.date | date: "%-d" }}
+{% case m %}
+            {% when  '1' %}Tháng Giêng
+            {% when  '2' %}Tháng Hai
+            {% when  '3' %}Tháng Ba
+            {% when  '4' %}Tháng Tư
+            {% when  '5' %}Tháng Năm
+            {% when  '6' %}Tháng Sáu
+            {% when  '7' %}Tháng Bảy
+            {% when  '8' %}Tháng Tám
+            {% when  '9' %}Tháng Chín
+            {% when '10' %}Tháng Mười
+            {% when '11' %}Tháng Mười Một
+            {% when '12' %}Tháng Mười Hai
+{% endcase %}
+{{ page.date | date: "%Y" }}
+</time>
+      {% if page.tags.size > 0 %}
+      &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}</span>
+      {% endif %}
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <section class="post">
+    {{ content }}
+  </section>
+</article>
+ {% if page.fbcomments %}
+    <hr/>
+  {% include fbcomment.html %}
+    <h4><i class="fas fa-comment"></i> Bình luận</h4>
+    <div class="fb-comments" data-href="{{ site.url }}/{{ post.url }}" data-width="706" data-numposts="5"></div>
+  {% endif %}
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5d3510e06d80831228394f5e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<br>

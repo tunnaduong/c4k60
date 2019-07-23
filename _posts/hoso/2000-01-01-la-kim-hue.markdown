@@ -1,0 +1,16 @@
+---
+title: Lã Kim Huệ
+layout: hosohocsinh
+birthday: '2003-12-23'
+categories: hoso
+fbcomments: true
+tc: active
+hs: active
+avatar: huela.jpg
+permalink: /hoso/huela.html
+phone: 0946408755
+address: Phủ Lý - Hà Nam
+shortname: Huệ Lã
+facebook: an.di.3192479
+instagram: huela23_
+---

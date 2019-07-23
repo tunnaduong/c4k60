@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<h3><i class="fas fa-bullhorn"></i> Thông báo lớp</h3>
+<div class="content list">
+{% if site.posts.size == 0 %}
+  <h2>Không có bài viết nào:)</h2>
+{% else %}
+{% for post in site.categories.thongbaolop %}
+  <div class="list-item">
+    <h2 class="list-post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <div class="list-post-date">
+      <time><!-- Whitespace added for readability -->
+{% assign m = post.date | date: "%-m" %}
+{{ post.date | date: "%-d" }}
+{% case m %}
+            {% when  '1' %}Tháng Giêng
+            {% when  '2' %}Tháng Hai
+            {% when  '3' %}Tháng Ba
+            {% when  '4' %}Tháng Tư
+            {% when  '5' %}Tháng Năm
+            {% when  '6' %}Tháng Sáu
+            {% when  '7' %}Tháng Bảy
+            {% when  '8' %}Tháng Tám
+            {% when  '9' %}Tháng Chín
+            {% when '10' %}Tháng Mười
+            {% when '11' %}Tháng Mười Một
+            {% when '12' %}Tháng Mười Hai
+{% endcase %}
+{{ post.date | date: "%Y" }}
+</time>
+    </div>
+  </div>
+{% endfor %}
+{% endif %}
+</div>
+<br>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5d3510e06d80831228394f5e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<a href="http://facebook.com/groups/c4k60/">Xem thêm tại group Facebook C4K60...</a>
+<br>
