@@ -107,6 +107,7 @@ Blog cá nhân</button>
 <li>Đã thêm phần "Tôi có thể tự tạo ra trang web cho lớp mình dựa theo trang web này?" trên trang chủ</li>
 <li>Bình luận Facebook ở mỗi bài viết trong phần thông báo lớp nay đã hoạt động.</li>
 <li>Thay đổi màu sắc cuộc trò chuyện trong phần Chat thành màu hồng.</li>
+<li>Đã thêm phần "Thông tin thêm" và "Tính cách" trong hồ sơ học sinh.</li>
 </ul>
 
 

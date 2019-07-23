@@ -13,4 +13,6 @@ address: Kiện Khê - Hà Nam
 shortname: Hiền Phò
 facebook: profile.php?id=100021945591826
 instagram: bb_thuhien
+thongtinthem: co
+tinhcach: Phúng phính trắng trẻo cao, tay chửi hạng nhì sau Bảo Hân
 ---

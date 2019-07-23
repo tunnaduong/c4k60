@@ -13,4 +13,6 @@ address: Phủ Lý - Hà Nam
 shortname: Mãi yêu Sunshine ahihi
 facebook: profile.php?id=100025060039304
 instagram: thonas.vn
+thongtinthem: co
+tinhcach: Đen và lùn 1m68
 ---

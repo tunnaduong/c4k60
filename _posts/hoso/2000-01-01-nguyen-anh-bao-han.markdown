@@ -13,4 +13,6 @@ address: Phủ Lý - Hà Nam
 shortname: 1m49
 facebook: profile.php?id=100026766159088
 instagram: _bao.hann
+thongtinthem: co
+tinhcach: Cao 1m5, biểu tượng của sự xéo sắc
 ---

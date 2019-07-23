@@ -13,4 +13,6 @@ address: Kim Bảng - Hà Nam
 shortname: Tunna Dương
 facebook: tunna.duong
 instagram: tunganhduongg
+thongtinthem: co
+tinhcach: Tay photographer của lớp, nhà sản xuất của các bức ảnh sịn sò
 ---

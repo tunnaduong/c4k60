@@ -13,4 +13,6 @@ address: Phủ Lý - Hà Nam
 shortname: Con nhà bán vịt
 facebook: profile.php?id=100006889245341
 instagram: thaophuong7102003
+thongtinthem: co
+tinhcach: Xinh đẹp, hoà đồng thân thiện nhiệt tình đáng yêu
 ---

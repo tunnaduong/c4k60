@@ -12,4 +12,6 @@ phone: 0353586934
 address: Phủ Lý - Hà Nam
 shortname: Linh Ngoc
 facebook: profile.php?id=100012581986492
+thongtinthem: co
+tinhcach: Thích tát nhau với bùi hiền và giấu dép đinh linh
 ---

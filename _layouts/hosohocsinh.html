@@ -213,10 +213,16 @@ Instagram</button>
 Twitter</button>
   {% endif %}
 </div>
-  </header>
 
+  </header>
   <section class="post">
     {{ content }}
+{% if page.thongtinthem %}
+<br>
+<hr>
+<h3><i class="fas fa-bolt"></i> Thông tin thêm</h3>
+<p><strong>Tính cách</strong>: {{ page.tinhcach }}</p>
+{% endif %}
   </section>
 </article>
 <br>

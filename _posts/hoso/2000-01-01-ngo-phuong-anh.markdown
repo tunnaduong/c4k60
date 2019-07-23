@@ -13,4 +13,6 @@ address: Phủ Lý - Hà Nam
 shortname: Lớp trưởng quyền năng
 facebook: phuonganh.ngo.773124
 instagram: annezz_
+thongtinthem: co
+tinhcach: Cute đáng yêu ăn ảnh
 ---

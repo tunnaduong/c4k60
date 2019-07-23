@@ -13,4 +13,7 @@ address: Kim Bảng - Hà Nam
 shortname: Huy Clown
 facebook: profile.php?id=100024385692161
 instagram: nguyenhuy4516
+thongtinthem: co
+tinhcach: Cao vâu
+
 ---
