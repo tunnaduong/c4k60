@@ -73,6 +73,23 @@ layout: home
 <!-- START CONTENT -->
 <div id="content"><h4><strong><i class="fas fa-clipboard-check"></i> Những thay đổi</strong></h4>
 
+<h5>Phiên bản 3.1</h5>
+<p>Ngày phát hành: 23/07/2019</p>
+
+<ul>
+  <li>Bản cập nhật đầu tiên của phiên bản 3.0</li>
+  <li>Đã sửa lại ngày sinh của Đinh Thuỳ Linh</li>
+  <li>Đã sửa lại link Instagram của Trần Khánh Vân</li>
+<li>Đã sửa lại link Twitter của Dương Phương Thảo</li>
+<li>Đã sửa lại số điện thoại của Phạm Bảo Sơn Hoa</li>
+<li>Menu C4K60 đã được làm đậm hơn</li>
+<li>Cửa sổ khung chat nay đã hoạt động</li>
+<li>Độ dài khung chat giảm xuống một nửa</li>
+<li>Thêm phần hướng dẫn nhập mật khẩu trong khung mật khẩu tra cứu hồ sơ học sinh</li>
+<li>Thay đổi CNAME, sử dụng tên miền cũ c4k60.ga cho phiên bản mới</li>
+</ul>
+
+
 <h5>Phiên bản 3.0</h5>
 <p>Ngày phát hành: 21/07/2019</p>
 
