@@ -8,7 +8,7 @@ tc: active
 hs: active
 avatar: sonhoa.jpg
 permalink: /hoso/sonhoa.html
-phone: 0368981825
+phone: 0942899052
 address: Phủ Lý - Hà Nam
 shortname: pbsh
 facebook: vienphan2512
