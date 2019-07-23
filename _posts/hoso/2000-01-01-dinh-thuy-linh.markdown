@@ -1,7 +1,7 @@
 ---
 title: Đinh Thuỳ Linh
 layout: hosohocsinh
-birthday: '2003-03-11'
+birthday: '2003-02-25'
 categories: hoso
 fbcomments: true
 tc: active
