@@ -109,6 +109,7 @@ Blog cá nhân</button>
 <li>Thay đổi màu sắc cuộc trò chuyện trong phần Chat thành màu hồng.</li>
 <li>Đã thêm phần "Thông tin thêm" và "Tính cách" trong hồ sơ học sinh.</li>
 <li>Đã sửa lại địa chỉ của Dư Thanh Hoài.</li>
+<li>Đã sửa lại tên giáo viên trong thời khoá biểu.</li>
 </ul>
 
 
