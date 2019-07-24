@@ -12,3 +12,8 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     window.location = "https://tunganh03.github.io/c4k60-image-gallery"; 
 }
 </script>
+<style>
+.navbar-brand{
+font-size: 2rem;
+}
+</style>

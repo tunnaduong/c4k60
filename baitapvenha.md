@@ -6,3 +6,8 @@ robots: noindex
 tc: active
 btvn: active
 ---
+<style>
+.navbar-brand{
+font-size: 2rem;
+}
+</style>

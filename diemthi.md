@@ -5,6 +5,11 @@ permalink: /diemthi/
 tc: active
 dt: active
 ---
+<style>
+.navbar-brand{
+font-size: 2rem;
+}
+</style>
 <h3><i class="fas fa-search"></i> Tra cứu điểm thi học kỳ 2 - Lớp 10 Chuyên Nga</h3>
         
 <div class='container mt-3' style='width:100%'>

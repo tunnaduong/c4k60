@@ -4,6 +4,11 @@ title: Chat
 permalink: /chat/
 c: active
 ---
+<style>
+.navbar-brand{
+font-size: 2rem;
+}
+</style>
 <h3><i class="fas fa-comments"></i> Chat Chít C4K60</h3>
 <div id="tlkio" data-channel="c4k60" data-theme="theme--pop" style="width:100%;height:400px;"></div>
 <script type="text/javascript">

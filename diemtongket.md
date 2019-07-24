@@ -5,6 +5,11 @@ permalink: /diemtongket/
 tc: active
 dtk: active
 ---
+<style>
+.navbar-brand{
+font-size: 2rem;
+}
+</style>
 <h3><i class="fas fa-search"></i> Tra cứu điểm tổng kết - Lớp 10 Chuyên Nga</h3>
 <br>
  <table class='table table-bordered table-striped'>

@@ -914,6 +914,7 @@ setTimeout(b34, 1);
 <li>Đã thêm tính năng tra cứu ngày sinh nhật sắp tới của học sinh 11 Nga</li>
 <li>Đã thêm phần "Sinh nhật sắp tới" trên trang chủ</li>
 <li>Đã thêm phần mở ngoặc ngày sinh trong phần tra cứu ngày sinh nhật sắp tới. Cảm ơn góp ý của Đan Thị Phương Thảo!</li>
+<li>Fix lỗi logo C4K60 bé lại ở một số trang</li>
 </ul>
 
 
