@@ -279,7 +279,7 @@ function sortTable() {
 //Dương Huyền Anh
 var d1= daysUntilNext({{page.1birthday-month}}, {{page.1birthday-day}}); 
 if(d1=== 0) {
-var today1 = "Hôm nay là sinh nhật của {{page.1fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today1 = "Hôm nay là sinh nhật của {{page.1fname}} ({{page.1birthday-day}}/{{page.1birthday-month}}/2003)! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t1, 1);
 }
 else {
@@ -298,7 +298,7 @@ setTimeout(b1, 1);
 //Dương Tùng Anh
 var d2= daysUntilNext({{page.2birthday-month}}, {{page.2birthday-day}}); 
 if(d2=== 0) {
-var today2 = "Hôm nay là sinh nhật của {{page.2fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today2 = "Hôm nay là sinh nhật của {{page.2fname}} ({{page.2birthday-day}}/{{page.2birthday-month}}/2003)! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t2, 1);
 }
 else {
@@ -317,7 +317,7 @@ setTimeout(b2, 1);
 //Ngô Phương Anh
 var d3= daysUntilNext({{page.3birthday-month}}, {{page.3birthday-day}}); 
 if(d3=== 0) {
-var today3 = "Hôm nay là sinh nhật của {{page.3fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today3 = "Hôm nay là sinh nhật của {{page.3fname}} ({{page.3birthday-day}}/{{page.3birthday-month}}/2003)! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t3, 1);
 }
 else {
@@ -336,7 +336,7 @@ setTimeout(b3, 1);
 //Nguyễn Đạt Thái Dương
 var d4= daysUntilNext({{page.4birthday-month}}, {{page.4birthday-day}}); 
 if(d4=== 0) {
-var today4 = "Hôm nay là sinh nhật của {{page.4fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today4 = "Hôm nay là sinh nhật của {{page.4fname}} ({{page.4birthday-day}}/{{page.4birthday-month}}/2003)! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t4, 1);
 }
 else {
@@ -355,7 +355,7 @@ setTimeout(b4, 1);
 //Nguyễn Đặng Hải
 var d5= daysUntilNext({{page.5birthday-month}}, {{page.5birthday-day}}); 
 if(d5=== 0) {
-var today5 = "Hôm nay là sinh nhật của {{page.5fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today5 = "Hôm nay là sinh nhật của {{page.5fname}} ({{page.5birthday-day}}/{{page.5birthday-month}}/2003)! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t5, 1);
 }
 else {
@@ -374,7 +374,7 @@ setTimeout(b5, 1);
 //Dương Huyền Anh
 var d6= daysUntilNext({{page.6birthday-month}}, {{page.6birthday-day}}); 
 if(d6=== 0) {
-var today6 = "Hôm nay là sinh nhật của {{page.6fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today6 = "Hôm nay là sinh nhật của {{page.6fname}} ({{page.30birthday-day}}/{{page.30birthday-month}}/2003)! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t6, 1);
 }
 else {
@@ -393,7 +393,7 @@ setTimeout(b6, 1);
 //Dương Tùng Anh
 var d7= daysUntilNext({{page.7birthday-month}}, {{page.7birthday-day}}); 
 if(d7=== 0) {
-var today7 = "Hôm nay là sinh nhật của {{page.7fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today7 = "Hôm nay là sinh nhật của {{page.7fname}} ({{page.7birthday-day}}/{{page.7birthday-month}}/2003)! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t7, 1);
 }
 else {
@@ -412,7 +412,7 @@ setTimeout(b7, 1);
 //Ngô Phương Anh
 var d8= daysUntilNext({{page.8birthday-month}}, {{page.8birthday-day}}); 
 if(d8=== 0) {
-var today8 = "Hôm nay là sinh nhật của {{page.8fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today8 = "Hôm nay là sinh nhật của {{page.8fname}} ({{page.8birthday-day}}/{{page.8birthday-month}}/2003)! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t8, 1);
 }
 else {
@@ -431,7 +431,7 @@ setTimeout(b8, 1);
 //Nguyễn Đạt Thái Dương
 var d9= daysUntilNext({{page.9birthday-month}}, {{page.9birthday-day}}); 
 if(d9=== 0) {
-var today9 = "Hôm nay là sinh nhật của {{page.9fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today9 = "Hôm nay là sinh nhật của {{page.9fname}} ({{page.9birthday-day}}/{{page.9birthday-month}}/2003)! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t9, 1);
 }
 else {
@@ -450,7 +450,7 @@ setTimeout(b9, 1);
 //Nguyễn Đặng Hải
 var d10= daysUntilNext({{page.10birthday-month}}, {{page.10birthday-day}}); 
 if(d10=== 0) {
-var today10 = "Hôm nay là sinh nhật của {{page.10fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today10 = "Hôm nay là sinh nhật của {{page.10fname}} ({{page.10birthday-day}}/{{page.6birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t10, 1);
 }
 else {
@@ -469,7 +469,7 @@ setTimeout(b10, 1);
 //Nguyễn Anh Bảo Hân
 var d11= daysUntilNext({{page.11birthday-month}}, {{page.11birthday-day}}); 
 if(d11=== 0) {
-var today11 = "Hôm nay là sinh nhật của {{page.11fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today11 = "Hôm nay là sinh nhật của {{page.11fname}} ({{page.11birthday-day}}/{{page.11birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t11, 1);
 }
 else {
@@ -487,7 +487,7 @@ setTimeout(b11, 1);
 //Bùi Thu Hiền
 var d12= daysUntilNext({{page.12birthday-month}}, {{page.12birthday-day}}); 
 if(d12=== 0) {
-var today12 = "Hôm nay là sinh nhật của {{page.12fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today12 = "Hôm nay là sinh nhật của {{page.12fname}} ({{page.12birthday-day}}/{{page.12birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t12, 1);
 }
 else {
@@ -505,7 +505,7 @@ setTimeout(b12, 1);
 //NguyenThuyHien
 var d13= daysUntilNext({{page.13birthday-month}}, {{page.13birthday-day}}); 
 if(d13=== 0) {
-var today13 = "Hôm nay là sinh nhật của {{page.13fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today13 = "Hôm nay là sinh nhật của {{page.13fname}} ({{page.13birthday-day}}/{{page.13birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t13, 1);
 }
 else {
@@ -523,7 +523,7 @@ setTimeout(b13, 1);
 //Nguyễn Đặng Hải
 var d14= daysUntilNext({{page.14birthday-month}}, {{page.14birthday-day}}); 
 if(d14=== 0) {
-var today14 = "Hôm nay là sinh nhật của {{page.14fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today14 = "Hôm nay là sinh nhật của {{page.14fname}} ({{page.14birthday-day}}/{{page.14birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t14, 1);
 }
 else {
@@ -541,7 +541,7 @@ setTimeout(b14, 1);
 //Nguyễn Đặng Hải
 var d15= daysUntilNext({{page.15birthday-month}}, {{page.15birthday-day}}); 
 if(d15=== 0) {
-var today15 = "Hôm nay là sinh nhật của {{page.15fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today15 = "Hôm nay là sinh nhật của {{page.15fname}} ({{page.15birthday-day}}/{{page.15birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t15, 1);
 }
 else {
@@ -559,7 +559,7 @@ setTimeout(b15, 1);
 //Nguyễn Đặng Hải
 var d16= daysUntilNext({{page.16birthday-month}}, {{page.16birthday-day}}); 
 if(d16=== 0) {
-var today16 = "Hôm nay là sinh nhật của {{page.16fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today16 = "Hôm nay là sinh nhật của {{page.16fname}} ({{page.16birthday-day}}/{{page.16birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t16, 1);
 }
 else {
@@ -577,7 +577,7 @@ setTimeout(b16, 1);
 //Nguyễn Đặng Hải
 var d17= daysUntilNext({{page.17birthday-month}}, {{page.17birthday-day}}); 
 if(d17=== 0) {
-var today17 = "Hôm nay là sinh nhật của {{page.17fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today17 = "Hôm nay là sinh nhật của {{page.17fname}} ({{page.17birthday-day}}/{{page.17birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t17, 1);
 }
 else {
@@ -595,7 +595,7 @@ setTimeout(b17, 1);
 //Nguyễn Đặng Hải
 var d18= daysUntilNext({{page.18birthday-month}}, {{page.18birthday-day}}); 
 if(d18=== 0) {
-var today18 = "Hôm nay là sinh nhật của {{page.18fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today18 = "Hôm nay là sinh nhật của {{page.18fname}} ({{page.18birthday-day}}/{{page.18birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t18, 1);
 }
 else {
@@ -613,7 +613,7 @@ setTimeout(b18, 1);
 //Nguyễn Đặng Hải
 var d19= daysUntilNext({{page.19birthday-month}}, {{page.19birthday-day}}); 
 if(d19=== 0) {
-var today19 = "Hôm nay là sinh nhật của {{page.19fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today19 = "Hôm nay là sinh nhật của {{page.19fname}} ({{page.19birthday-day}}/{{page.19birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t19, 1);
 }
 else {
@@ -631,7 +631,7 @@ setTimeout(b19, 1);
 //Nguyễn Đặng Hải
 var d20= daysUntilNext({{page.20birthday-month}}, {{page.20birthday-day}}); 
 if(d20=== 0) {
-var today20 = "Hôm nay là sinh nhật của {{page.20fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today20 = "Hôm nay là sinh nhật của {{page.20fname}} ({{page.30birthday-day}}/{{page.30birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t20, 1);
 }
 else {
@@ -650,7 +650,7 @@ setTimeout(b20, 1);
 //Nguyễn Đặng Hải
 var d21= daysUntilNext({{page.21birthday-month}}, {{page.21birthday-day}}); 
 if(d21=== 0) {
-var today21 = "Hôm nay là sinh nhật của {{page.21fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today21 = "Hôm nay là sinh nhật của {{page.21fname}} ({{page.21birthday-day}}/{{page.21birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t21, 1);
 }
 else {
@@ -668,7 +668,7 @@ setTimeout(b21, 1);
 //Nguyễn Đặng Hải
 var d22= daysUntilNext({{page.22birthday-month}}, {{page.22birthday-day}}); 
 if(d22=== 0) {
-var today22 = "Hôm nay là sinh nhật của {{page.22fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today22 = "Hôm nay là sinh nhật của {{page.22fname}} ({{page.22birthday-day}}/{{page.22birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t22, 1);
 }
 else {
@@ -686,7 +686,7 @@ setTimeout(b22, 1);
 //Nguyễn Đặng Hải
 var d23= daysUntilNext({{page.23birthday-month}}, {{page.23birthday-day}}); 
 if(d23=== 0) {
-var today23 = "Hôm nay là sinh nhật của {{page.23fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today23 = "Hôm nay là sinh nhật của {{page.23fname}} ({{page.23birthday-day}}/{{page.23birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t23, 1);
 }
 else {
@@ -704,7 +704,7 @@ setTimeout(b23, 1);
 //Nguyễn Đặng Hải
 var d24= daysUntilNext({{page.24birthday-month}}, {{page.24birthday-day}}); 
 if(d24=== 0) {
-var today24 = "Hôm nay là sinh nhật của {{page.24fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today24 = "Hôm nay là sinh nhật của {{page.24fname}} ({{page.24birthday-day}}/{{page.24birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t24, 1);
 }
 else {
@@ -722,7 +722,7 @@ setTimeout(b24, 1);
 //Nguyễn Đặng Hải
 var d25= daysUntilNext({{page.25birthday-month}}, {{page.25birthday-day}}); 
 if(d25=== 0) {
-var today25 = "Hôm nay là sinh nhật của {{page.25fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today25 = "Hôm nay là sinh nhật của {{page.25fname}} ({{page.25birthday-day}}/{{page.25birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t25, 1);
 }
 else {
@@ -740,7 +740,7 @@ setTimeout(b25, 1);
 //Nguyễn Đặng Hải
 var d26= daysUntilNext({{page.26birthday-month}}, {{page.26birthday-day}}); 
 if(d26=== 0) {
-var today26 = "Hôm nay là sinh nhật của {{page.26fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today26 = "Hôm nay là sinh nhật của {{page.26fname}} ({{page.26birthday-day}}/{{page.26birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t26, 1);
 }
 else {
@@ -758,7 +758,7 @@ setTimeout(b26, 1);
 //Nguyễn Đặng Hải
 var d27= daysUntilNext({{page.27birthday-month}}, {{page.27birthday-day}}); 
 if(d27=== 0) {
-var today27 = "Hôm nay là sinh nhật của {{page.27fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today27 = "Hôm nay là sinh nhật của {{page.27fname}} ({{page.27birthday-day}}/{{page.27birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t27, 1);
 }
 else {
@@ -776,7 +776,7 @@ setTimeout(b27, 1);
 //Nguyễn Đặng Hải
 var d28= daysUntilNext({{page.28birthday-month}}, {{page.28birthday-day}}); 
 if(d28=== 0) {
-var today28 = "Hôm nay là sinh nhật của {{page.28fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today28 = "Hôm nay là sinh nhật của {{page.28fname}} ({{page.28birthday-day}}/{{page.28birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t28, 1);
 }
 else {
@@ -794,7 +794,7 @@ setTimeout(b28, 1);
 //Nguyễn Đặng Hải
 var d29= daysUntilNext({{page.29birthday-month}}, {{page.29birthday-day}}); 
 if(d29=== 0) {
-var today29 = "Hôm nay là sinh nhật của {{page.29fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today29 = "Hôm nay là sinh nhật của {{page.29fname}} ({{page.29birthday-day}}/{{page.29birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t29, 1);
 }
 else {
@@ -812,7 +812,7 @@ setTimeout(b29, 1);
 //Nguyễn Đặng Hải
 var d30= daysUntilNext({{page.30birthday-month}}, {{page.30birthday-day}}); 
 if(d30=== 0) {
-var today30 = "Hôm nay là sinh nhật của {{page.30fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today30 = "Hôm nay là sinh nhật của {{page.30fname}} ({{page.30birthday-day}}/{{page.30birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t30, 1);
 }
 else {
@@ -830,7 +830,7 @@ setTimeout(b30, 1);
 //Nguyễn Đặng Hải
 var d31= daysUntilNext({{page.31birthday-month}}, {{page.31birthday-day}}); 
 if(d31=== 0) {
-var today31 = "Hôm nay là sinh nhật của {{page.31fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today31 = "Hôm nay là sinh nhật của {{page.31fname}} ({{page.31birthday-day}}/{{page.31birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t31, 1);
 }
 else {
@@ -848,7 +848,7 @@ setTimeout(b31, 1);
 //Nguyễn Đặng Hải
 var d32= daysUntilNext({{page.32birthday-month}}, {{page.32birthday-day}}); 
 if(d32=== 0) {
-var today32 = "Hôm nay là sinh nhật của {{page.32fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today32 = "Hôm nay là sinh nhật của {{page.32fname}} ({{page.32birthday-day}}/{{page.32birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t32, 1);
 }
 else {
@@ -866,7 +866,7 @@ setTimeout(b32, 1);
 //Nguyễn Đặng Hải
 var d33= daysUntilNext({{page.33birthday-month}}, {{page.33birthday-day}}); 
 if(d33=== 0) {
-var today33 = "Hôm nay là sinh nhật của {{page.33fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today33 = "Hôm nay là sinh nhật của {{page.33fname}} ({{page.33birthday-day}}/{{page.33birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t33, 1);
 }
 else {
@@ -884,7 +884,7 @@ setTimeout(b33, 1);
 //Nguyễn Đặng Hải
 var d34= daysUntilNext({{page.34birthday-month}}, {{page.34birthday-day}}); 
 if(d34=== 0) {
-var today34 = "Hôm nay là sinh nhật của {{page.34fname}}! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+var today34 = "Hôm nay là sinh nhật của {{page.34fname}} ({{page.34birthday-day}}/{{page.34birthday-month}}/2003)! lời chúc mừng sinh nhật bạn ấy!"
 setTimeout(t34, 1);
 }
 else {
@@ -915,6 +915,7 @@ setTimeout(b34, 1);
 <li>Đã thêm phần "Sinh nhật sắp tới" trên trang chủ</li>
 <li>Đã thêm phần mở ngoặc ngày sinh trong phần tra cứu ngày sinh nhật sắp tới. Cảm ơn góp ý của Đan Thị Phương Thảo!</li>
 <li>Fix lỗi logo C4K60 bé lại ở một số trang</li>
+<li>Đã thêm phần mở ngoặc ngày sinh trong phần sinh nhật hôm nay</li>
 </ul>
 
 
