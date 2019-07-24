@@ -784,172 +784,172 @@ setTimeout(b34, 1);
   <tr id="r1" style="display: ">
 <td>Còn</td>
     <td id="d1">5</td>
-    <td>ngày nữa là đến sinh nhật của {{page.1fname}}</td>
+    <td>ngày nữa là đến sinh nhật của {{page.1fname}} ({{page.1birthday-day}}/{{page.1birthday-month}}/2003)</td>
   </tr>
   <tr id="r2" style="display: ">
 <td>Còn</td>
     <td id="d2">3</td>
-    <td>ngày nữa là đến sinh nhật của {{page.2fname}}</td>
+    <td>ngày nữa là đến sinh nhật của {{page.2fname}} ({{page.2birthday-day}}/{{page.2birthday-month}}/2003)</td>
   </tr>
  <tr id="r3" style="display: ">
 <td>Còn</td>
 <td id="d3">6</td>
-<td>ngày nữa là đến sinh nhật của {{page.3fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.3fname}} ({{page.3birthday-day}}/{{page.3birthday-month}}/2003)</td>
   </tr>
   <tr id="r4" style="display: ">
 <td>Còn</td>
 <td id="d4">6</td>
-<td>ngày nữa là đến sinh nhật của {{page.4fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.4fname}} ({{page.4birthday-day}}/{{page.4birthday-month}}/2003)</td>
   </tr>
   <tr id="r5" style="display: ">
 <td>Còn</td>
 <td id="d5">6</td>
-<td>ngày nữa là đến sinh nhật của {{page.5fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.5fname}} ({{page.5birthday-day}}/{{page.5birthday-month}}/2003)</td>
   </tr>
   <tr id="r6" style="display: ">
 <td>Còn</td>
     <td id="d6">5</td>
-    <td>ngày nữa là đến sinh nhật của {{page.6fname}}</td>
+    <td>ngày nữa là đến sinh nhật của {{page.6fname}} ({{page.6birthday-day}}/{{page.6birthday-month}}/2003)</td>
   </tr>
   <tr id="r7" style="display: ">
 <td>Còn</td>
     <td id="d7">3</td>
-    <td>ngày nữa là đến sinh nhật của {{page.7fname}}</td>
+    <td>ngày nữa là đến sinh nhật của {{page.7fname}} ({{page.7birthday-day}}/{{page.7birthday-month}}/2003)</td>
   </tr>
  <tr id="r8" style="display: ">
 <td>Còn</td>
 <td id="d8">6</td>
-<td>ngày nữa là đến sinh nhật của {{page.8fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.8fname}} ({{page.8birthday-day}}/{{page.8birthday-month}}/2003)</td>
   </tr>
   <tr id="r9" style="display: ">
 <td>Còn</td>
 <td id="d9">6</td>
-<td>ngày nữa là đến sinh nhật của {{page.9fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.9fname}} ({{page.9birthday-day}}/{{page.9birthday-month}}/2003)</td>
   </tr>
   <tr id="r10" style="display: ">
 <td>Còn</td>
 <td id="d10">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.10fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.10fname}} ({{page.10birthday-day}}/{{page.10birthday-month}}/2003)</td>
   </tr>
   <tr id="r11" style="display: ">
 <td>Còn</td>
 <td id="d11">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.11fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.11fname}} ({{page.11birthday-day}}/{{page.11birthday-month}}/2003)</td>
   </tr>
   <tr id="r12" style="display: ">
 <td>Còn</td>
 <td id="d12">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.12fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.12fname}} ({{page.12birthday-day}}/{{page.12birthday-month}}/2003)</td>
   </tr>
   <tr id="r13" style="display: ">
 <td>Còn</td>
 <td id="d13">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.13fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.13fname}} ({{page.13birthday-day}}/{{page.13birthday-month}}/2003)</td>
   </tr>
   <tr id="r14" style="display: ">
 <td>Còn</td>
 <td id="d14">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.14fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.14fname}} ({{page.14birthday-day}}/{{page.14birthday-month}}/2003)</td>
   </tr>
   <tr id="r15" style="display: ">
 <td>Còn</td>
 <td id="d15">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.15fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.15fname}} ({{page.15birthday-day}}/{{page.15birthday-month}}/2003)</td>
   </tr>
   <tr id="r16" style="display: ">
 <td>Còn</td>
 <td id="d16">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.16fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.16fname}} ({{page.16birthday-day}}/{{page.16birthday-month}}/2003)</td>
   </tr>
   <tr id="r17" style="display: ">
 <td>Còn</td>
 <td id="d17">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.17fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.17fname}} ({{page.17birthday-day}}/{{page.17birthday-month}}/2003)</td>
   </tr>
   <tr id="r18" style="display: ">
 <td>Còn</td>
 <td id="d18">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.18fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.18fname}} ({{page.18birthday-day}}/{{page.18birthday-month}}/2003)</td>
   </tr>
   <tr id="r19" style="display: ">
 <td>Còn</td>
 <td id="d19">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.19fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.19fname}} ({{page.19birthday-day}}/{{page.19birthday-month}}/2003)</td>
   </tr>
   <tr id="r20" style="display: ">
 <td>Còn</td>
 <td id="d20">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.20fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.20fname}} ({{page.20birthday-day}}/{{page.20birthday-month}}/2003)</td>
   </tr>
   <tr id="r21" style="display: ">
 <td>Còn</td>
 <td id="d21">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.21fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.21fname}} ({{page.21birthday-day}}/{{page.21birthday-month}}/2003)</td>
   </tr>
   <tr id="r22" style="display: ">
 <td>Còn</td>
 <td id="d22">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.22fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.22fname}} ({{page.22birthday-day}}/{{page.22birthday-month}}/2003)</td>
   </tr>
   <tr id="r23" style="display: ">
 <td>Còn</td>
 <td id="d23">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.23fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.23fname}} ({{page.23birthday-day}}/{{page.23birthday-month}}/2003)</td>
   </tr>
   <tr id="r24" style="display: ">
 <td>Còn</td>
 <td id="d24">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.24fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.24fname}} ({{page.24birthday-day}}/{{page.24birthday-month}}/2003)</td>
   </tr>
   <tr id="r25" style="display: ">
 <td>Còn</td>
 <td id="d25">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.25fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.25fname}} ({{page.25birthday-day}}/{{page.25birthday-month}}/2003)</td>
   </tr>
   <tr id="r26" style="display: ">
 <td>Còn</td>
 <td id="d26">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.26fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.26fname}} ({{page.26birthday-day}}/{{page.26birthday-month}}/2003)</td>
   </tr>
   <tr id="r27" style="display: ">
 <td>Còn</td>
 <td id="d27">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.27fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.27fname}} ({{page.27birthday-day}}/{{page.27birthday-month}}/2003)</td>
   </tr>
   <tr id="r28" style="display: ">
 <td>Còn</td>
 <td id="d28">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.28fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.28fname}} ({{page.28birthday-day}}/{{page.28birthday-month}}/2003)</td>
   </tr>
   <tr id="r29" style="display: ">
 <td>Còn</td>
 <td id="d29">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.29fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.29fname}} ({{page.29birthday-day}}/{{page.29birthday-month}}/2003)</td>
   </tr>
   <tr id="r30" style="display: ">
 <td>Còn</td>
 <td id="d30">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.30fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.30fname}} ({{page.30birthday-day}}/{{page.30birthday-month}}/2003)</td>
   </tr>
   <tr id="r31" style="display: ">
 <td>Còn</td>
 <td id="d31">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.31fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.31fname}} ({{page.31birthday-day}}/{{page.31birthday-month}}/2003)</td>
   </tr>
   <tr id="r32" style="display: ">
 <td>Còn</td>
 <td id="d32">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.32fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.32fname}} ({{page.32birthday-day}}/{{page.32birthday-month}}/2003)</td>
   </tr>
   <tr id="r33" style="display: ">
 <td>Còn</td>
 <td id="d33">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.33fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.33fname}} ({{page.33birthday-day}}/{{page.33birthday-month}}/2003)</td>
   </tr>
   <tr id="r34" style="display: ">
 <td>Còn</td>
 <td id="d34">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.34fname}}</td>
+<td>ngày nữa là đến sinh nhật của {{page.34fname}} ({{page.34birthday-day}}/{{page.34birthday-month}}/2003)</td>
   </tr>
 </table>
 <br>

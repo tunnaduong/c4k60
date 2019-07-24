@@ -913,6 +913,7 @@ setTimeout(b34, 1);
   <li>Bản cập nhật thứ ba của phiên bản 3.0</li>
 <li>Đã thêm tính năng tra cứu ngày sinh nhật sắp tới của học sinh 11 Nga</li>
 <li>Đã thêm phần "Sinh nhật sắp tới" trên trang chủ</li>
+<li>Đã thêm phần mở ngoặc ngày sinh trong phần tra cứu ngày sinh nhật sắp tới. Cảm ơn góp ý của Đan Thị Phương Thảo!</li>
 </ul>
 
 
