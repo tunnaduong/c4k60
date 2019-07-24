@@ -154,6 +154,713 @@ Tháng Bảy
 
 </div>
 <br />
+<h4><strong><i class="fas fa-birthday-cake"></i> Sinh nhật sắp tới</strong></h4>
+<script>
+function RemoveList(){
+document.getElementById("r1").style.display = "none";
+document.getElementById("r2").style.display = "none";
+document.getElementById("r3").style.display = "none";
+document.getElementById("r4").style.display = "none";
+document.getElementById("r5").style.display = "none";
+document.getElementById("r6").style.display = "none";
+document.getElementById("r7").style.display = "none";
+document.getElementById("r8").style.display = "none";
+document.getElementById("r9").style.display = "none";
+document.getElementById("r10").style.display = "none";
+document.getElementById("r11").style.display = "none";
+document.getElementById("r12").style.display = "none";
+document.getElementById("r13").style.display = "none";
+document.getElementById("r13").style.display = "none";
+document.getElementById("r14").style.display = "none";
+document.getElementById("r15").style.display = "none";
+document.getElementById("r16").style.display = "none";
+document.getElementById("r17").style.display = "none";
+document.getElementById("r18").style.display = "none";
+document.getElementById("r19").style.display = "none";
+document.getElementById("r20").style.display = "none";
+document.getElementById("r21").style.display = "none";
+document.getElementById("r22").style.display = "none";
+document.getElementById("r23").style.display = "none";
+document.getElementById("r24").style.display = "none";
+document.getElementById("r25").style.display = "none";
+document.getElementById("r26").style.display = "none";
+document.getElementById("r27").style.display = "none";
+document.getElementById("r28").style.display = "none";
+document.getElementById("r29").style.display = "none";
+document.getElementById("r30").style.display = "none";
+document.getElementById("r31").style.display = "none";
+document.getElementById("r32").style.display = "none";
+document.getElementById("r33").style.display = "none";
+document.getElementById("r34").style.display = "none";
+}
+function daysUntilNext(month, day){
+    var tday= new Date(), y= tday.getFullYear(), next= new Date(y, month-1, day);
+    tday.setHours(0, 0, 0, 0);
+    if(tday>next) next.setFullYear(y+1);
+    return Math.round((next-tday)/8.64e7);
+}
+setTimeout(sortTable, 2); 
+setTimeout(RemoveList, 1); 
+function sortTable() {
+  var table, rows, switching, i, x, y, shouldSwitch;
+  table = document.getElementById("myTable");
+  switching = true;
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 0; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[1];
+      y = rows[i + 1].getElementsByTagName("TD")[1];
+      //check if the two rows should switch place:
+      if (Number(x.innerHTML) > Number(y.innerHTML)) {
+        //if so, mark as a switch and break the loop:
+        shouldSwitch = true;
+        break;
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+    }
+  }
+}
+//Dương Huyền Anh
+var d1= daysUntilNext(08, 27); 
+if(d1=== 0) {
+var today1 = "Hôm nay là sinh nhật của Dương Huyền Anh! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t1, 1);
+}
+else {
+var dm1 = "Còn "+d1+" ngày nữa là đến sinh nhật của Dương Huyền Anh"
+
+}
+ function b1() {
+  document.getElementById("d1").innerHTML = d1;
+}
+function t1() {
+  document.getElementById("today").innerHTML = today1;
+document.getElementById("r1").style.display = "none";
+}
+setTimeout(b1, 1); 
+
+//Dương Tùng Anh
+var d2= daysUntilNext(11, 21); 
+if(d2=== 0) {
+var today2 = "Hôm nay là sinh nhật của Dương Tùng Anh! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t2, 1);
+}
+else {
+var dm2 = "Còn "+d2+" ngày nữa là đến sinh nhật của Dương Tùng Anh"
+
+}
+ function b2() {
+  document.getElementById("d2").innerHTML = d2;
+}
+function t2() {
+  document.getElementById("today").innerHTML = today2;
+document.getElementById("r2").style.display = "none";
+}
+setTimeout(b2, 1); 
+
+//Ngô Phương Anh
+var d3= daysUntilNext(6, 30); 
+if(d3=== 0) {
+var today3 = "Hôm nay là sinh nhật của Ngô Phương Anh! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t3, 1);
+}
+else {
+var dm3 = "Còn "+d3+" ngày nữa là đến sinh nhật của Ngô Phương Anh"
+
+}
+ function b3() {
+  document.getElementById("d3").innerHTML = d3;
+}
+function t3() {
+  document.getElementById("today").innerHTML = today3;
+document.getElementById("r3").style.display = "none";
+}
+setTimeout(b3, 1); 
+
+//Nguyễn Đạt Thái Dương
+var d4= daysUntilNext(12, 12); 
+if(d4=== 0) {
+var today4 = "Hôm nay là sinh nhật của Nguyễn Đạt Thái Dương! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t4, 1);
+}
+else {
+var dm4 = "Còn "+d4+" ngày nữa là đến sinh nhật của Nguyễn Đạt Thái Dương"
+
+}
+ function b4() {
+  document.getElementById("d4").innerHTML = d4;
+}
+function t4() {
+  document.getElementById("today").innerHTML = today4;
+document.getElementById("r4").style.display = "none";
+}
+setTimeout(b4, 1); 
+
+//Nguyễn Đặng Hải
+var d5= daysUntilNext(12, 10); 
+if(d5=== 0) {
+var today5 = "Hôm nay là sinh nhật của Nguyễn Đặng Hải! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t5, 1);
+}
+else {
+var dm5 = "Còn "+d5+" ngày nữa là đến sinh nhật của Nguyễn Đặng Hải"
+
+}
+ function b5() {
+  document.getElementById("d5").innerHTML = d5;
+}
+function t5() {
+  document.getElementById("today").innerHTML = today5;
+document.getElementById("r5").style.display = "none";
+}
+setTimeout(b5, 1); 
+
+//Dương Huyền Anh
+var d6= daysUntilNext(12, 11); 
+if(d6=== 0) {
+var today6 = "Hôm nay là sinh nhật của Nguyễn Anh Bảo Hân! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t6, 1);
+}
+else {
+var dm6 = "Còn "+d6+" ngày nữa là đến sinh nhật của Nguyễn Anh Bảo Hân"
+
+}
+ function b6() {
+  document.getElementById("d6").innerHTML = d6;
+}
+function t6() {
+  document.getElementById("today").innerHTML = today6;
+document.getElementById("r6").style.display = "none";
+}
+setTimeout(b6, 1); 
+
+//Dương Tùng Anh
+var d7= daysUntilNext(11, 10); 
+if(d7=== 0) {
+var today7 = "Hôm nay là sinh nhật của Bùi Thu Hiền! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t7, 1);
+}
+else {
+var dm7 = "Còn "+d7+" ngày nữa là đến sinh nhật của Bùi Thu Hiền"
+
+}
+ function b7() {
+  document.getElementById("d7").innerHTML = d7;
+}
+function t7() {
+  document.getElementById("today").innerHTML = today7;
+document.getElementById("r7").style.display = "none";
+}
+setTimeout(b7, 1); 
+
+//Ngô Phương Anh
+var d8= daysUntilNext(5, 17); 
+if(d8=== 0) {
+var today8 = "Hôm nay là sinh nhật của Nguyễn Thuý Hiền! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t8, 1);
+}
+else {
+var dm8 = "Còn "+d8+" ngày nữa là đến sinh nhật của Ngô Phương Anh"
+
+}
+ function b8() {
+  document.getElementById("d8").innerHTML = d8;
+}
+function t8() {
+  document.getElementById("today").innerHTML = today8;
+document.getElementById("r8").style.display = "none";
+}
+setTimeout(b8, 1); 
+
+//Nguyễn Đạt Thái Dương
+var d9= daysUntilNext(12, 29); 
+if(d9=== 0) {
+var today9 = "Hôm nay là sinh nhật của Phạm Thu Hiền! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t9, 1);
+}
+else {
+var dm9 = "Còn "+d9+" ngày nữa là đến sinh nhật của Phạm Thu Hiền"
+
+}
+ function b9() {
+  document.getElementById("d9").innerHTML = d9;
+}
+function t9() {
+  document.getElementById("today").innerHTML = today9;
+document.getElementById("r9").style.display = "none";
+}
+setTimeout(b9, 1); 
+
+//Nguyễn Đặng Hải
+var d10= daysUntilNext(1, 21); 
+if(d10=== 0) {
+var today10 = "Hôm nay là sinh nhật của Hồ Trung Hiếu! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t10, 1);
+}
+else {
+var dm10 = "Còn "+d10+" ngày nữa là đến sinh nhật của Hồ Trung Hiếu"
+
+}
+ function b10() {
+  document.getElementById("d10").innerHTML = d10;
+}
+function t10() {
+  document.getElementById("today").innerHTML = today10;
+document.getElementById("r10").style.display = "none";
+}
+setTimeout(b10, 1); 
+
+//Nguyễn Anh Bảo Hân
+var d11= daysUntilNext(12, 25); 
+if(d11=== 0) {
+var today11 = "Hôm nay là sinh nhật của Phạm Bảo Sơn Hoa! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t11, 1);
+}
+else {
+var dm11 = "Còn "+d11+" ngày nữa là đến sinh nhật của Phạm Bảo Sơn Hoa"
+
+}
+ function b11() {
+  document.getElementById("d11").innerHTML = d11;
+}
+function t11() {
+  document.getElementById("today").innerHTML = today11;
+document.getElementById("r11").style.display = "none";
+}
+setTimeout(b11, 1); 
+//Bùi Thu Hiền
+var d12= daysUntilNext(4, 13); 
+if(d12=== 0) {
+var today12 = "Hôm nay là sinh nhật của Dư Thanh Hoài! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t12, 1);
+}
+else {
+var dm12 = "Còn "+d12+" ngày nữa là đến sinh nhật của Dư Thanh Hoài"
+
+}
+ function b12() {
+  document.getElementById("d12").innerHTML = d12;
+}
+function t12() {
+  document.getElementById("today").innerHTML = today12;
+document.getElementById("r12").style.display = "none";
+}
+setTimeout(b12, 1); 
+//NguyenThuyHien
+var d13= daysUntilNext(12, 23); 
+if(d13=== 0) {
+var today13 = "Hôm nay là sinh nhật của Lã Kim Huệ! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t13, 1);
+}
+else {
+var dm13 = "Còn "+d13+" ngày nữa là đến sinh nhật của Lã Kim Huệ"
+
+}
+ function b13() {
+  document.getElementById("d13").innerHTML = d13;
+}
+function t13() {
+  document.getElementById("today").innerHTML = today13;
+document.getElementById("r13").style.display = "none";
+}
+setTimeout(b13, 1); 
+//Nguyễn Đặng Hải
+var d14= daysUntilNext(11, 13); 
+if(d14=== 0) {
+var today14 = "Hôm nay là sinh nhật của Phạm Thị Thiên Hương! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t14, 1);
+}
+else {
+var dm14 = "Còn "+d14+" ngày nữa là đến sinh nhật của Phạm Thị Thiên Hương"
+
+}
+ function b14() {
+  document.getElementById("d14").innerHTML = d14;
+}
+function t14() {
+  document.getElementById("today").innerHTML = today14;
+document.getElementById("r14").style.display = "none";
+}
+setTimeout(b14, 1); 
+//Nguyễn Đặng Hải
+var d15= daysUntilNext(12, 16); 
+if(d15=== 0) {
+var today15 = "Hôm nay là sinh nhật của Nguyễn Quang Huy! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t15, 1);
+}
+else {
+var dm15 = "Còn "+d15+" ngày nữa là đến sinh nhật của Nguyễn Quang Huy"
+
+}
+ function b15() {
+  document.getElementById("d15").innerHTML = d15;
+}
+function t15() {
+  document.getElementById("today").innerHTML = today15;
+document.getElementById("r15").style.display = "none";
+}
+setTimeout(b15, 1); 
+//Nguyễn Đặng Hải
+var d16= daysUntilNext(1, 2); 
+if(d16=== 0) {
+var today16 = "Hôm nay là sinh nhật của Trần Thị Diệu Huyền! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t16, 1);
+}
+else {
+var dm16 = "Còn "+d16+" ngày nữa là đến sinh nhật của Trần Thị Diệu Huyền"
+
+}
+ function b16() {
+  document.getElementById("d16").innerHTML = d16;
+}
+function t16() {
+  document.getElementById("today").innerHTML = today16;
+document.getElementById("r16").style.display = "none";
+}
+setTimeout(b16, 1); 
+//Nguyễn Đặng Hải
+var d17= daysUntilNext(5, 1); 
+if(d17=== 0) {
+var today17 = "Hôm nay là sinh nhật của Nguyễn Minh Khôi! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t17, 1);
+}
+else {
+var dm17 = "Còn "+d17+" ngày nữa là đến sinh nhật của Nguyễn Minh Khôi"
+
+}
+ function b17() {
+  document.getElementById("d17").innerHTML = d17;
+}
+function t17() {
+  document.getElementById("today").innerHTML = today17;
+document.getElementById("r17").style.display = "none";
+}
+setTimeout(b17, 1); 
+//Nguyễn Đặng Hải
+var d18= daysUntilNext(09, 2); 
+if(d18=== 0) {
+var today18 = "Hôm nay là sinh nhật của Lê Hoàng Tùng Lâm! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t18, 1);
+}
+else {
+var dm18 = "Còn "+d18+" ngày nữa là đến sinh nhật của Lê Hoàng Tùng Lâm"
+
+}
+ function b18() {
+  document.getElementById("d18").innerHTML = d18;
+}
+function t18() {
+  document.getElementById("today").innerHTML = today18;
+document.getElementById("r18").style.display = "none";
+}
+setTimeout(b18, 1); 
+//Nguyễn Đặng Hải
+var d19= daysUntilNext(5, 18); 
+if(d19=== 0) {
+var today19 = "Hôm nay là sinh nhật của Lê Kim Liên! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t19, 1);
+}
+else {
+var dm19 = "Còn "+d19+" ngày nữa là đến sinh nhật của Lê Kim Liên"
+
+}
+ function b19() {
+  document.getElementById("d19").innerHTML = d19;
+}
+function t19() {
+  document.getElementById("today").innerHTML = today19;
+document.getElementById("r19").style.display = "none";
+}
+setTimeout(b19, 1); 
+//Nguyễn Đặng Hải
+var d20= daysUntilNext(2, 25); 
+if(d20=== 0) {
+var today20 = "Hôm nay là sinh nhật của Đinh Thuỳ Linh! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t20, 1);
+}
+else {
+var dm20 = "Còn "+d20+" ngày nữa là đến sinh nhật của Đinh Thuỳ Linh"
+
+}
+ function b20() {
+  document.getElementById("d20").innerHTML = d20;
+}
+function t20() {
+  document.getElementById("today").innerHTML = today20;
+document.getElementById("r20").style.display = "none";
+}
+setTimeout(b20, 1); 
+
+//Nguyễn Đặng Hải
+var d21= daysUntilNext(12, 13); 
+if(d21=== 0) {
+var today21 = "Hôm nay là sinh nhật của Nguyễn Khánh Linh! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t21, 1);
+}
+else {
+var dm21 = "Còn "+d21+" ngày nữa là đến sinh nhật của Nguyễn Khánh Linh"
+
+}
+ function b21() {
+  document.getElementById("d21").innerHTML = d21;
+}
+function t21() {
+  document.getElementById("today").innerHTML = today21;
+document.getElementById("r21").style.display = "none";
+}
+setTimeout(b21, 1); 
+//Nguyễn Đặng Hải
+var d22= daysUntilNext(1, 19); 
+if(d22=== 0) {
+var today22 = "Hôm nay là sinh nhật của Bùi Ngọc Lĩnh! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t22, 1);
+}
+else {
+var dm22 = "Còn "+d22+" ngày nữa là đến sinh nhật của Bùi Ngọc Lĩnh"
+
+}
+ function b22() {
+  document.getElementById("d22").innerHTML = d22;
+}
+function t22() {
+  document.getElementById("today").innerHTML = today22;
+document.getElementById("r22").style.display = "none";
+}
+setTimeout(b22, 1); 
+//Nguyễn Đặng Hải
+var d23= daysUntilNext(08, 09); 
+if(d23=== 0) {
+var today23 = "Hôm nay là sinh nhật của Nguyễn Đức Mạnh! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t23, 1);
+}
+else {
+var dm23 = "Còn "+d23+" ngày nữa là đến sinh nhật của Nguyễn Đức Mạnh"
+
+}
+ function b23() {
+  document.getElementById("d23").innerHTML = d23;
+}
+function t23() {
+  document.getElementById("today").innerHTML = today23;
+document.getElementById("r23").style.display = "none";
+}
+setTimeout(b23, 1); 
+//Nguyễn Đặng Hải
+var d24= daysUntilNext(4, 13); 
+if(d24=== 0) {
+var today24 = "Hôm nay là sinh nhật của Đỗ Thảo Nguyên! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t24, 1);
+}
+else {
+var dm24 = "Còn "+d24+" ngày nữa là đến sinh nhật của Đỗ Thảo Nguyên"
+
+}
+ function b24() {
+  document.getElementById("d24").innerHTML = d24;
+}
+function t24() {
+  document.getElementById("today").innerHTML = today24;
+document.getElementById("r24").style.display = "none";
+}
+setTimeout(b24, 1); 
+//Nguyễn Đặng Hải
+var d25= daysUntilNext(08, 6); 
+if(d25=== 0) {
+var today25 = "Hôm nay là sinh nhật của Đào Thu Phương! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t25, 1);
+}
+else {
+var dm25 = "Còn "+d25+" ngày nữa là đến sinh nhật của Đào Thu Phương"
+
+}
+ function b25() {
+  document.getElementById("d25").innerHTML = d25;
+}
+function t25() {
+  document.getElementById("today").innerHTML = today25;
+document.getElementById("r25").style.display = "none";
+}
+setTimeout(b25, 1); 
+//Nguyễn Đặng Hải
+var d26= daysUntilNext(11, 08); 
+if(d26=== 0) {
+var today26 = "Hôm nay là sinh nhật của Đỗ Hồng Quân! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t26, 1);
+}
+else {
+var dm26 = "Còn "+d26+" ngày nữa là đến sinh nhật của Đỗ Hồng Quân"
+
+}
+ function b26() {
+  document.getElementById("d26").innerHTML = d26;
+}
+function t26() {
+  document.getElementById("today").innerHTML = today26;
+document.getElementById("r26").style.display = "none";
+}
+setTimeout(b26, 1); 
+//Nguyễn Đặng Hải
+var d27= daysUntilNext(4, 28); 
+if(d27=== 0) {
+var today27 = "Hôm nay là sinh nhật của Vũ Minh Quang! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t27, 1);
+}
+else {
+var dm27 = "Còn "+d27+" ngày nữa là đến sinh nhật của Vũ Minh Quang"
+
+}
+ function b27() {
+  document.getElementById("d27").innerHTML = d27;
+}
+function t27() {
+  document.getElementById("today").innerHTML = today27;
+document.getElementById("r27").style.display = "none";
+}
+setTimeout(b27, 1); 
+//Nguyễn Đặng Hải
+var d28= daysUntilNext(10, 7); 
+if(d28=== 0) {
+var today28 = "Hôm nay là sinh nhật của Đan Thị Phương Thảo! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t28, 1);
+}
+else {
+var dm28 = "Còn "+d28+" ngày nữa là đến sinh nhật của Đan Thị Phương Thảo"
+
+}
+ function b28() {
+  document.getElementById("d28").innerHTML = d28;
+}
+function t28() {
+  document.getElementById("today").innerHTML = today28;
+document.getElementById("r28").style.display = "none";
+}
+setTimeout(b28, 1); 
+//Nguyễn Đặng Hải
+var d29= daysUntilNext(12, 14); 
+if(d29=== 0) {
+var today29 = "Hôm nay là sinh nhật của Dương Phương Thảo! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t29, 1);
+}
+else {
+var dm29 = "Còn "+d29+" ngày nữa là đến sinh nhật của Dương Phương Thảo"
+
+}
+ function b29() {
+  document.getElementById("d29").innerHTML = d29;
+}
+function t29() {
+  document.getElementById("today").innerHTML = today29;
+document.getElementById("r29").style.display = "none";
+}
+setTimeout(b29, 1); 
+//Nguyễn Đặng Hải
+var d30= daysUntilNext(08, 19); 
+if(d30=== 0) {
+var today30 = "Hôm nay là sinh nhật của Nguyễn Minh Thư! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t30, 1);
+}
+else {
+var dm30 = "Còn "+d30+" ngày nữa là đến sinh nhật của Nguyễn Minh Thư"
+
+}
+ function b30() {
+  document.getElementById("d30").innerHTML = d30;
+}
+function t30() {
+  document.getElementById("today").innerHTML = today30;
+document.getElementById("r30").style.display = "none";
+}
+setTimeout(b30, 1); 
+//Nguyễn Đặng Hải
+var d31= daysUntilNext(12, 21); 
+if(d31=== 0) {
+var today31 = "Hôm nay là sinh nhật của Vũ Huyền Trang! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t31, 1);
+}
+else {
+var dm31 = "Còn "+d31+" ngày nữa là đến sinh nhật của Vũ Huyền Trang"
+
+}
+ function b31() {
+  document.getElementById("d31").innerHTML = d31;
+}
+function t31() {
+  document.getElementById("today").innerHTML = today31;
+document.getElementById("r31").style.display = "none";
+}
+setTimeout(b31, 1); 
+//Nguyễn Đặng Hải
+var d32= daysUntilNext(4, 18); 
+if(d32=== 0) {
+var today32 = "Hôm nay là sinh nhật của Nguyễn Thị Ánh Tuyết! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t32, 1);
+}
+else {
+var dm32 = "Còn "+d32+" ngày nữa là đến sinh nhật của Nguyễn Thị Ánh Tuyết"
+
+}
+ function b32() {
+  document.getElementById("d32").innerHTML = d32;
+}
+function t32() {
+  document.getElementById("today").innerHTML = today32;
+document.getElementById("r32").style.display = "none";
+}
+setTimeout(b32, 1); 
+//Nguyễn Đặng Hải
+var d33= daysUntilNext(11, 25); 
+if(d33=== 0) {
+var today33 = "Hôm nay là sinh nhật của Trần Khánh Vân! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t33, 1);
+}
+else {
+var dm33 = "Còn "+d33+" ngày nữa là đến sinh nhật của Trần Khánh Vân"
+
+}
+ function b33() {
+  document.getElementById("d33").innerHTML = d33;
+}
+function t33() {
+  document.getElementById("today").innerHTML = today33;
+document.getElementById("r33").style.display = "none";
+}
+setTimeout(b33, 1); 
+//Nguyễn Đặng Hải
+var d34= daysUntilNext(11, 16); 
+if(d34=== 0) {
+var today34 = "Hôm nay là sinh nhật của Hà Gia Văn! Hãy gửi lời chúc mừng sinh nhật bạn ấy!"
+setTimeout(t34, 1);
+}
+else {
+var dm34 = "Còn "+d34+" ngày nữa là đến sinh nhật của Hà Gia Văn"
+
+}
+ function b34() {
+  document.getElementById("d34").innerHTML = d34;
+}
+function t34() {
+  document.getElementById("today").innerHTML = today34;
+document.getElementById("r34").style.display = "none";
+}
+setTimeout(b34, 1); 
+</script>
+<p id="today">Hôm nay không có sinh nhật nào diễn ra...</p>
+
 
 <!-- START CONTENT -->
 <div id="content"><h4><strong><i class="fas fa-clipboard-check"></i> Những thay đổi</strong></h4>
@@ -164,6 +871,7 @@ Tháng Bảy
 <ul>
   <li>Bản cập nhật thứ ba của phiên bản 3.0</li>
 <li>Đã thêm tính năng tra cứu ngày sinh nhật sắp tới của học sinh 11 Nga</li>
+<li>Đã thêm phần "Sinh nhật sắp tới" trên trang chủ</li>
 </ul>
 
 
