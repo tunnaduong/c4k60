@@ -97,6 +97,15 @@ Blog cá nhân</button>
 <!-- START CONTENT -->
 <div id="content"><h4><strong><i class="fas fa-clipboard-check"></i> Những thay đổi</strong></h4>
 
+<h5>Phiên bản 3.3</h5>
+<p>Ngày phát hành: 24/07/2019</p>
+
+<ul>
+  <li>Bản cập nhật thứ ba của phiên bản 3.0</li>
+<li>Đã thêm tính năng tra cứu ngày sinh nhật sắp tới của học sinh 11 Nga</li>
+</ul>
+
+
 <h5>Phiên bản 3.2</h5>
 <p>Ngày phát hành: 23/07/2019</p>
 
