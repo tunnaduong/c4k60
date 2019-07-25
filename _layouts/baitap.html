@@ -7,18 +7,23 @@ font-size: 2rem;
 }
 </style>
 <h3><i class="fas fa-book"></i> Bài tập về nhà</h3>
-  <h4 style="color:green">Hôm nay tạm thời không có bài tập nào :)</h4>
-<div class="content list">
-{% if site.categories.btvn.posts.size == 0 %}
-  <h2>Hôm nay tạm thời không có bài tập nào :)</h2>
+ <div class="content list">
+{% if site.categories.btvn.size == 1 %}
+  <h5 style="color:green"><strong>Hôm nay tạm thời không có bài tập nào :)</strong></h5>
 {% else %}
 {% for post in site.categories.btvn %}
+{% if post.title == 1 %}
+ <h2 class="list-post-title" style="display: none">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+{% else %}
   <div class="list-item">
     <h2 class="list-post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h2>
     <div class="list-post-date">
       <time><!-- Whitespace added for readability -->
+
 {% assign m = post.date | date: "%-m" %}
 {{ post.date | date: "%-d" }}
 {% case m %}
@@ -39,6 +44,7 @@ font-size: 2rem;
 </time>
     </div>
   </div>
+{% endif %}
 {% endfor %}
 {% endif %}
 </div>

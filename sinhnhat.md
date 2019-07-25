@@ -809,7 +809,7 @@ setTimeout(b34, 1);
   <tr id="r6" style="display: ">
 <td>Còn</td>
     <td id="d6">5</td>
-    <td>ngày nữa là đến sinh nhật của {{page.6fname}} ({{page.30birthday-day}}/{{page.30birthday-month}}/2003)</td>
+    <td>ngày nữa là đến sinh nhật của {{page.6fname}} ({{page.6birthday-day}}/{{page.6birthday-month}}/2003)</td>
   </tr>
   <tr id="r7" style="display: ">
 <td>Còn</td>
@@ -829,7 +829,7 @@ setTimeout(b34, 1);
   <tr id="r10" style="display: ">
 <td>Còn</td>
 <td id="d10">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.10fname}} ({{page.30birthday-day}}/{{page.30birthday-month}}/2003)</td>
+<td>ngày nữa là đến sinh nhật của {{page.10fname}} ({{page.10birthday-day}}/{{page.10birthday-month}}/2003)</td>
   </tr>
   <tr id="r11" style="display: ">
 <td>Còn</td>
@@ -879,7 +879,7 @@ setTimeout(b34, 1);
   <tr id="r20" style="display: ">
 <td>Còn</td>
 <td id="d20">null</td>
-<td>ngày nữa là đến sinh nhật của {{page.20fname}} ({{page.30birthday-day}}/{{page.30birthday-month}}/2003)</td>
+<td>ngày nữa là đến sinh nhật của {{page.20fname}} ({{page.20birthday-day}}/{{page.20birthday-month}}/2003)</td>
   </tr>
   <tr id="r21" style="display: ">
 <td>Còn</td>

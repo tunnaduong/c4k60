@@ -111,86 +111,88 @@ layout: home
 
    <div class="row marketing" style="display:block">
         <div>
-          <h4><strong><i class="fas fa-question-circle"></i> Đây là gì?</strong></h4>
-          <p>Chào mừng đến với cổng thông tin điện tử dành cho học sinh C4K60! Trang web này là công cụ để tra cứu dễ dàng các thông tin của lớp 11 Nga THPT Chuyên Hà Nam</p>
-        </div>
-<h4><strong><i class="fas fa-comment-dollar"></i> Nó có miễn phí không?</strong></h4>
-<p>Tất nhiên rồi! Miễn phì từ nay và mãi mãi về sau! Tuy nhiên nếu bạn muốn ủng hộ người lập trình, bạn có thể donate một cốc cafe 1$ qua <a href="https://paypal.me/techup">PayPal</a> :)</p>
-<h4><strong><i class="fas fa-user-check"></i> Ai tạo ra cái này?</strong></h4>
-<p>Dương Tùng Anh - Coder, Web Designer | Hiện đang học lớp 11 Nga THPT Chuyên Hà Nam.</p>
-<div>
-<button type="button" class="btn btn-info" onclick="location.href='http://facebook.com/tunnaduong';">
-    <i class="fab fa-facebook-square"></i>
-Facebook</button>
-<button type="button" class="btn btn-info" onclick="location.href='http://instagram.com/tunganhduongg';">
-    <i class="fab fa-instagram"></i>
-Instagram</button>
-<button type="button" class="btn btn-info" onclick="location.href='http://twitter.com/tunganh03';">
-    <i class="fab fa-twitter"></i>
-Twitter</button>
-<button type="button" class="btn btn-info" onclick="location.href='http://github.com/tunganh03';">
-    <i class="fab fa-github"></i>
-GitHub</button>
-<button type="button" class="btn btn-info" onclick="location.href='http://duongtunganh.space';">
-    <i class="fas fa-blog"></i>
-Blog cá nhân</button>
-</div>
-
-<br>
-<h4><strong><i class="fab fa-creative-commons"></i> Tôi có thể tự tạo ra trang web cho lớp mình dựa theo trang web này?</strong></h4>
-<p>Đây là một dự án mã nguồn mở, mọi người được phép tự chỉnh sửa trang web này mà không cần phải xin phép từ tác giả. Mã nguồn của trang web này có thể tìm thấy trên GitHub tại <a href="http://github.com/tunganh03/c4k60-v3">đây</a>. Đừng ngại ngùng mày mò nghiên cứu và thay đổi :P</p>
-
-<!-- Modal -->
-<div class="modal fade right" id="ScoreModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-sign-in-alt"></i> Đăng nhập tài khoản - {{ site.title }}</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-<div id="okta-login-container"></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-      </div>
-    </div>
-  </div>
-</div>
 <h4><strong><i class="fas fa-bullhorn"></i> Thông báo lớp</strong></h4>
 <div class="content list">
-{% if site.posts.size == 0 %}
-  <h5>Không có bài viết nào:)</h5>
+{% if site.categories.thongbaolop.size == 1 %}
+  <h5>Không có thông báo nào :)</h5>
 {% else %}
 {% for post in site.categories.thongbaolop %}
+{% if post.title == 1 %}
+ <h2 class="list-post-title" style="display: none">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+{% else %}
   <div class="list-item">
     <h2 class="list-post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h2>
     <div class="list-post-date">
       <time><!-- Whitespace added for readability -->
+
 {% assign m = post.date | date: "%-m" %}
 {{ post.date | date: "%-d" }}
 {% case m %}
-            {% when  '1' %}Tháng Giêng
-            {% when  '2' %}Tháng Hai
-            {% when  '3' %}Tháng Ba
-            {% when  '4' %}Tháng Tư
-            {% when  '5' %}Tháng Năm
-            {% when  '6' %}Tháng Sáu
-            {% when  '7' %}Tháng Bảy
-            {% when  '8' %}Tháng Tám
-            {% when  '9' %}Tháng Chín
-            {% when '10' %}Tháng Mười
-            {% when '11' %}Tháng Mười Một
-            {% when '12' %}Tháng Mười Hai
+   {% when  '1' %}Tháng Giêng
+  {% when  '2' %}Tháng Hai
+ {% when  '3' %}Tháng Ba
+  {% when  '4' %}Tháng Tư
+   {% when  '5' %}Tháng Năm
+  {% when  '6' %}Tháng Sáu
+{% when  '7' %}Tháng Bảy
+ {% when  '8' %}Tháng Tám
+  {% when  '9' %}Tháng Chín
+{% when '10' %}Tháng Mười
+{% when '11' %}Tháng Mười Một
+{% when '12' %}Tháng Mười Hai
 {% endcase %}
 {{ post.date | date: "%Y" }}
 </time>
-    </div>
   </div>
+  </div>
+{% endif %}
+{% endfor %}
+{% endif %}
+</div>
+<br>
+<h4><strong><i class="fas fa-book"></i> Bài tập về nhà</strong></h4>
+ <div class="content list">
+{% if site.categories.btvn.size == 1 %}
+  <h5>Hôm nay tạm thời không có bài tập nào :)</h5>
+{% else %}
+{% for post in site.categories.btvn %}
+{% if post.title == 1 %}
+ <h2 class="list-post-title" style="display: none">
+   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </h2>
+{% else %}
+  <div class="list-item">
+<h2 class="list-post-title">
+   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+ </h2>
+<div class="list-post-date">
+ <time><!-- Whitespace added for readability -->
+
+{% assign m = post.date | date: "%-m" %}
+{{ post.date | date: "%-d" }}
+{% case m %}
+  {% when  '1' %}Tháng Giêng
+   {% when  '2' %}Tháng Hai
+  {% when  '3' %}Tháng Ba
+   {% when  '4' %}Tháng Tư
+{% when  '5' %}Tháng Năm
+  {% when  '6' %}Tháng Sáu
+{% when  '7' %}Tháng Bảy
+  {% when  '8' %}Tháng Tám
+  {% when  '9' %}Tháng Chín
+{% when '10' %}Tháng Mười
+{% when '11' %}Tháng Mười Một
+   {% when '12' %}Tháng Mười Hai
+{% endcase %}
+{{ post.date | date: "%Y" }}
+</time>
+ </div>
+  </div>
+{% endif %}
 {% endfor %}
 {% endif %}
 </div>
@@ -900,7 +902,56 @@ document.getElementById("r34").style.display = "none";
 }
 setTimeout(b34, 1); 
 </script>
-<p id="today">Hôm nay không có sinh nhật nào diễn ra...</p>
+<h5 id="today">Hôm nay không có sinh nhật nào diễn ra...</h5>
+<br>
+<h4><strong><i class="fas fa-question-circle"></i> Đây là gì?</strong></h4>
+<p>Chào mừng đến với cổng thông tin điện tử dành cho học sinh C4K60! Trang web này là công cụ để tra cứu dễ dàng các thông tin của lớp 11 Nga THPT Chuyên Hà Nam</p>
+</div>
+<h4><strong><i class="fas fa-comment-dollar"></i> Nó có miễn phí không?</strong></h4>
+<p>Tất nhiên rồi! Miễn phì từ nay và mãi mãi về sau! Tuy nhiên nếu bạn muốn ủng hộ người lập trình, bạn có thể donate một cốc cafe 1$ qua <a href="https://paypal.me/techup">PayPal</a> :)</p>
+<h4><strong><i class="fas fa-user-check"></i> Ai tạo ra cái này?</strong></h4>
+<p>Dương Tùng Anh - Coder, Web Designer | Hiện đang học lớp 11 Nga THPT Chuyên Hà Nam.</p>
+<div>
+<button type="button" class="btn btn-info" onclick="location.href='http://facebook.com/tunnaduong';">
+    <i class="fab fa-facebook-square"></i>
+Facebook</button>
+<button type="button" class="btn btn-info" onclick="location.href='http://instagram.com/tunganhduongg';">
+    <i class="fab fa-instagram"></i>
+Instagram</button>
+<button type="button" class="btn btn-info" onclick="location.href='http://twitter.com/tunganh03';">
+    <i class="fab fa-twitter"></i>
+Twitter</button>
+<button type="button" class="btn btn-info" onclick="location.href='http://github.com/tunganh03';">
+    <i class="fab fa-github"></i>
+GitHub</button>
+<button type="button" class="btn btn-info" onclick="location.href='http://duongtunganh.space';">
+    <i class="fas fa-blog"></i>
+Blog cá nhân</button>
+</div>
+
+<br>
+<h4><strong><i class="fab fa-creative-commons"></i> Tôi có thể tự tạo ra trang web cho lớp mình dựa theo trang web này?</strong></h4>
+<p>Đây là một dự án mã nguồn mở, mọi người được phép tự chỉnh sửa trang web này mà không cần phải xin phép từ tác giả. Mã nguồn của trang web này có thể tìm thấy trên GitHub tại <a href="http://github.com/tunganh03/c4k60-v3">đây</a>. Đừng ngại ngùng mày mò nghiên cứu và thay đổi :P</p>
+
+<!-- Modal -->
+<div class="modal fade right" id="ScoreModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-sign-in-alt"></i> Đăng nhập tài khoản - {{ site.title }}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<div id="okta-login-container"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- START CONTENT -->
@@ -916,6 +967,9 @@ setTimeout(b34, 1);
 <li>Đã thêm phần mở ngoặc ngày sinh trong phần tra cứu ngày sinh nhật sắp tới. Cảm ơn góp ý của Đan Thị Phương Thảo!</li>
 <li>Fix lỗi logo C4K60 bé lại ở một số trang</li>
 <li>Đã thêm phần mở ngoặc ngày sinh trong phần sinh nhật hôm nay</li>
+<li>Fix lỗi sai ngày sinh nhật của một số người</li>
+<li>Đã chuyển phần "Thông báo lớp" và "Sinh nhật sắp tới" lên đầu trang chủ</li>
+<li>Đã thêm phần "Bài tập về nhà" lên trang chủ</li>
 </ul>
 
 
