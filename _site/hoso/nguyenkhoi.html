@@ -38,45 +38,207 @@
 		<title>Nguyễn Minh Khôi</title>
 	</head>
   <body>
-    <div class="container">
-      <div class="header clearfix">
-<nav class="navbar navbar-expand-xl navbar-light">
-        <a class="navbar-brand" href="http://c4k60.ga" style="font-weight: bold;" alt="Nguyễn Minh Khôi - Cổng thông tin điện tử C4K60">C4K60</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarLg">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse" id="collapsingNavbarLg">
-        <ul class="navbar-nav">
-<!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
-        Tra cứu
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item " id="diemthi" href="/diemthi">Điểm thi học kỳ 2</a>
-        <a class="dropdown-item " id="diemtongket" href="/diemtongket">Điểm tổng kết</a>
-        <a class="dropdown-item active"  id="hoso" href="/hoso">Hồ sơ học sinh</a>
-        <a class="dropdown-item " id="btvn" href="/baitap">Bài tập về nhà</a>
-        <a class="dropdown-item " id="snst" href="/sinhnhat">Sinh nhật sắp tới</a>
-      </div>
-    </li>
-            <li class="nav-item">
-                <a class="nav-link " id="thoikhoabieu" href="/thoikhoabieu">Thời khoá biểu</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " id="thongbao" href="/thongbaolop">Thông báo lớp</a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link " id="thuvien" href="/thuvienanh">Thư viện ảnh</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " id="chat" href="/chat">Chat</a>
-            </li>
-        </ul>
-    </div>
+<nav class="shadow-sm navbar navbar-icon-top navbar-expand-lg navbar-light navbar-fixed-top" style="top: -25px;background-color: #f6e100">
+    <script>
+function MyFunction() {
+    var thongbao = 3;
+    var tbl1 = document.getElementById("tbl");
+    tbl1.innerHTML = thongbao - 1;
+}
+setTimeout(MyFunction, 1); 
+</script>
+<style>
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.navbar-icon-top .navbar-nav .nav-link > .faf {
+  position: relative;
+  width: 36px;
+  font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .faf > .badge {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .faf {
+  top: 3px;
+  line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .faf > .badge {
+  top: -10px;
+}
+
+@media (min-width: 576px) {
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .faf {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .faf > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .faf {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .faf > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .faf {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .faf > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .faf {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .faf > .badge {
+    top: -7px;
+  }
+}
+
+</style>
+
+<nav class="shadow-sm navbar navbar-icon-top navbar-expand-lg navbar-light navbar-fixed-top" style="top: -25px;background-color: #f6e100">
+ <a href="http://localhost:4000"><img src="/logoc4k60.png" alt="Cổng thông tin điện tử C4K60" height="62" width="80"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="http://localhost:4000">
+          <i class="faf fa fa-home"></i>
+          Trang chủ
+          <span class="sr-only">(current)</span>
+          </a>
+      </li>
+<li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="faf fa fa-search">
+          </i>
+          Tra cứu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item " href="/diemthi">Điểm thi học kỳ 2</a>
+          <a class="dropdown-item " href="/diemtongket">Điểm tổng kết</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item active" href="/hoso">Hồ sơ học sinh</a>
+          <a class="dropdown-item " href="/thoikhoabieu">Thời khoá biểu</a>
+          <a class="dropdown-item " href="/baitap">Bài tập về nhà</a>
+          <a class="dropdown-item " href="/sinhnhat">Sinh nhật sắp tới</a>
+        </div>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/thuvienanh">
+          <i class="faf fas fa-images">
+          </i>
+          Thư viện ảnh
+        </a>
+      </li>
+            <li class="nav-item ">
+        <a class="nav-link" href="/games">
+          <i class="faf fas fa-gamepad">
+          </i>
+          Games
+        </a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ">
+      <li class="nav-item ">
+        <a class="nav-link" href="/thongbaolop">
+          <i class="faf fa fa-bell">
+            <span class="badge badge-danger" id="tbl"></span>
+          </i>
+          Thông báo
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/chat">
+          <i class="faf fas fa-comment-alt">
+            <span class="badge badge-danger">11</span>
+          </i>
+          Chat
+        </a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0"method="get" action="http://www.google.com/search" target="_blank">
+<input type="hidden" name="sitesearch" value="https://c4k60.ga" />
+<input class="form-control mr-sm-2" type="text" name="q" maxlength="255" placeholder="Tìm kiếm trong trang" />
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+    </form>
+  </div>
 </nav>
-      </div>
+<div class="container">
+
 
         <style>
 .navbar-brand{

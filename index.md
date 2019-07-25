@@ -1,5 +1,6 @@
 ---
 layout: home
+house: active
 1fname: Dương Huyền Anh
 1birthday-month: 08
 1birthday-day: 27
@@ -913,19 +914,19 @@ setTimeout(b34, 1);
 <p>Dương Tùng Anh - Coder, Web Designer | Hiện đang học lớp 11 Nga THPT Chuyên Hà Nam.</p>
 <div>
 <button type="button" class="btn btn-info" onclick="location.href='http://facebook.com/tunnaduong';">
-    <i class="fab fa-facebook-square"></i>
+   <i class="fab fa-facebook-square"></i>
 Facebook</button>
 <button type="button" class="btn btn-info" onclick="location.href='http://instagram.com/tunganhduongg';">
-    <i class="fab fa-instagram"></i>
+   <i class="fab fa-instagram"></i>
 Instagram</button>
 <button type="button" class="btn btn-info" onclick="location.href='http://twitter.com/tunganh03';">
-    <i class="fab fa-twitter"></i>
+  <i class="fab fa-twitter"></i>
 Twitter</button>
 <button type="button" class="btn btn-info" onclick="location.href='http://github.com/tunganh03';">
-    <i class="fab fa-github"></i>
+  <i class="fab fa-github"></i>
 GitHub</button>
 <button type="button" class="btn btn-info" onclick="location.href='http://duongtunganh.space';">
-    <i class="fas fa-blog"></i>
+  <i class="fas fa-blog"></i>
 Blog cá nhân</button>
 </div>
 
@@ -933,29 +934,21 @@ Blog cá nhân</button>
 <h4><strong><i class="fab fa-creative-commons"></i> Tôi có thể tự tạo ra trang web cho lớp mình dựa theo trang web này?</strong></h4>
 <p>Đây là một dự án mã nguồn mở, mọi người được phép tự chỉnh sửa trang web này mà không cần phải xin phép từ tác giả. Mã nguồn của trang web này có thể tìm thấy trên GitHub tại <a href="http://github.com/tunganh03/c4k60-v3">đây</a>. Đừng ngại ngùng mày mò nghiên cứu và thay đổi :P</p>
 
-<!-- Modal -->
-<div class="modal fade right" id="ScoreModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalPreviewLabel"><i class="fas fa-sign-in-alt"></i> Đăng nhập tài khoản - {{ site.title }}</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-<div id="okta-login-container"></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
 <!-- START CONTENT -->
 <div id="content"><h4><strong><i class="fas fa-clipboard-check"></i> Những thay đổi</strong></h4>
+
+<h5>Phiên bản 3.4</h5>
+<p>Ngày phát hành: 25/07/2019</p>
+
+<ul>
+  <li>Bản cập nhật đặc biệt và có nhiều thay đổi nhất của phiên bản 3.0</li>
+<li>Cập nhật giao diện thanh menu mới</li>
+<li>Đã thêm logo C4K60 trên thanh menu (Credit goes to Thiên Hương for designing)</li>
+<li>Đã thêm tính năng "Games" (Vẫn chưa phát triển xong. Sorry guys)</li>
+<li>Đã thêm tính năng tìm kiếm trong trang với Google trên thanh menu</li>
+<li>Đã thay đổi Favicon của website thành logo mới</li>
+<li>Màu sắc chủ đạo của trang web nay trở thành màu vàng</li>
+</ul>
 
 <h5>Phiên bản 3.3</h5>
 <p>Ngày phát hành: 24/07/2019</p>
