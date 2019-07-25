@@ -948,6 +948,8 @@ Blog cá nhân</button>
 <li>Đã thêm tính năng tìm kiếm trong trang với Google trên thanh menu</li>
 <li>Đã thay đổi Favicon của website thành logo mới</li>
 <li>Màu sắc chủ đạo của trang web nay trở thành màu vàng</li>
+<li>Đã fix một lỗi khiến website không thể quay lại trang chủ</li>
+<li>Đã fix một lỗi khiến các trang bị biến dạng</li>
 </ul>
 
 <h5>Phiên bản 3.3</h5>
