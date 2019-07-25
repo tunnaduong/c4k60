@@ -10,9 +10,9 @@ avatar: lelam.jpg
 permalink: /hoso/lelam.html
 phone: 0818890111
 address: Phủ Lý - Hà Nam
-shortname: Mãi yêu Sunshine ahihi
+shortname: meme lord =))
 facebook: profile.php?id=100025060039304
 instagram: thonas.vn
 thongtinthem: co
-tinhcach: Đen và lùn 1m68
+tinhcach: khá đẹp trai và chắc chắn đẹp trai hơn huyền anh
 ---
