@@ -25,9 +25,3 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.footer {
-    padding-right: 0px;margin-right: -41px;
-}
-.message-input {
-    padding-left: 10px;margin-left: -38px;padding-right: 16px;margin-right: 0px;
-}
