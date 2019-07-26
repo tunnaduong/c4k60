@@ -964,6 +964,7 @@ Blog cá nhân</button>
 <li>Đã thêm phần "Top Donators" trên trang chủ</li>
 <li>Đã thêm thông báo "Top Donator" ở đầu mọi trang</li>
 <li>Đã thêm liên kết đến trang Facebook cá nhân của Thiên Hương</li>
+<li>Đã thay đổi màu sắc của nút mở khóa hồ sơ học sinh thành màu vàng</li>
 </ul>
 
 <h5>Phiên bản 3.3</h5>
