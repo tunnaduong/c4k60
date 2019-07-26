@@ -38,7 +38,13 @@
 		<title>Ngô Phương Anh</title>
 	</head>
   <body style="margin-top: 100px;">
-
+<script type="text/javascript">
+$(document).ready(function() {
+    // show the alert
+    setTimeout(function() {
+        $(".alert").alert('close');
+    }, 2000);
+});
 </script>
     <script>
 function MyFunction() {
@@ -383,9 +389,10 @@ $(document).ready(function() {
 </script>
 
 </div> 
-    <div class="alert alert-success alert-dismissible fade show">
+
+    <div class="alert alert-success alert-dismissible fade show" id="success-alert">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong><i class="fas fa-coffee"></i> Top Donator:</strong> <a href="https://facebook.com/ndhai1012">Nguyễn Đặng Hải</a> - 2$. Cảm ơn bạn vì đã ủng hộ! Đóng góp của bạn là động lực rất lớn để chúng tôi hoàn thiện trang web này.
+  <strong><i class="fas fa-coffee"></i> Top Donator:</strong> <a href="https://facebook.com/ndhai1012">Nguyễn Đặng Hải</a> - 5$. Cảm ơn bạn vì đã ủng hộ! Đóng góp của bạn là động lực rất lớn để chúng tôi hoàn thiện trang web này.
 </div>
         <style>
 .navbar-brand{

@@ -914,6 +914,7 @@ setTimeout(b34, 1);
 <h4><strong><i class="fas fa-coffee"></i> Top Donators:</strong></h4>
 <ul>
   <li><a href="https://facebook.com/ndhai1012">Nguyễn Đặng Hải</a> - 2$</li>
+  <li><a href="https://facebook.com/ndhai1012">Nguyễn Đặng Hải</a> - 3$</li>
 </ul>
 <p>Cảm ơn các bạn một lần nữa vì đã quan tâm và ủng hộ dự án này của mình! Nó có ý nghĩa về mặt tinh thần rất lớn đối với mình!</p>
 <h4><strong><i class="fas fa-user-check"></i> Ai tạo ra cái này?</strong></h4>
@@ -947,7 +948,7 @@ Blog cá nhân</button>
 <p>Ngày phát hành: 25/07/2019</p>
 
 <ul>
-  <li>Bản cập nhật đặc biệt và có nhiều thay đổi nhất của phiên bản 3.0</li>
+<li>Bản cập nhật đặc biệt và có nhiều thay đổi nhất của phiên bản 3.0</li>
 <li>Cập nhật giao diện thanh menu mới</li>
 <li>Đã thêm logo C4K60 trên thanh menu (Credit goes to Thiên Hương for designing)</li>
 <li>Đã thêm tính năng "Games" (Vẫn chưa phát triển xong. Sorry guys)</li>
