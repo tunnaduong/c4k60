@@ -950,6 +950,8 @@ Blog cá nhân</button>
 <li>Màu sắc chủ đạo của trang web nay trở thành màu vàng</li>
 <li>Đã fix một lỗi khiến website không thể quay lại trang chủ</li>
 <li>Đã fix một lỗi khiến các trang bị biến dạng</li>
+<li>Đã xoá bỏ tính năng gửi tin nhắn hỗ trợ ở góc phải màn hình</li>
+<li>Tính năng Chat nhóm nay được chuyển thành dạng tab ở dưới màn hình</li>
 </ul>
 
 <h5>Phiên bản 3.3</h5>
