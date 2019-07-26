@@ -15,7 +15,7 @@
     border-radius: 10px;
     border-top-width: 1px;
     border-color: rgba(0,0,0,0.1);
-    background-color: #fffff9;
+    background-color: #ffffcf;
 }
 .post-name {
     position: absolute;
@@ -24,4 +24,10 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.footer {
+    padding-right: 0px;margin-right: -41px;
+}
+.message-input {
+    padding-left: 10px;margin-left: -38px;padding-right: 16px;margin-right: 0px;
 }
