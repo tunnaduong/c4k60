@@ -952,6 +952,7 @@ Blog cá nhân</button>
 <li>Đã fix một lỗi khiến các trang bị biến dạng</li>
 <li>Đã xoá bỏ tính năng gửi tin nhắn hỗ trợ ở góc phải màn hình</li>
 <li>Tính năng Chat nhóm nay được chuyển thành dạng tab ở dưới màn hình</li>
+<li>Thay đổi màu sắc cuộc trò chuyện trong phần Chat thành màu vàng</li>
 </ul>
 
 <h5>Phiên bản 3.3</h5>
