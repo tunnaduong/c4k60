@@ -950,7 +950,7 @@ Blog cá nhân</button>
 <ul>
 <li>Bản cập nhật đặc biệt và có nhiều thay đổi nhất của phiên bản 3.0</li>
 <li>Cập nhật giao diện thanh menu mới</li>
-<li>Đã thêm logo C4K60 trên thanh menu (Credit goes to Thiên Hương for designing)</li>
+<li>Đã thêm logo C4K60 mới trên thanh menu (Credit goes to <a href="https://www.facebook.com/phamhuong131">Thiên Hương</a> for designing)</li>
 <li>Đã thêm tính năng "Games" (Vẫn chưa phát triển xong. Sorry guys)</li>
 <li>Đã thêm tính năng tìm kiếm trong trang với Google trên thanh menu</li>
 <li>Đã thay đổi Favicon của website thành logo mới</li>
@@ -963,6 +963,7 @@ Blog cá nhân</button>
 <li>Đã cố định thanh menu ở góc trên màn hình</li>
 <li>Đã thêm phần "Top Donators" trên trang chủ</li>
 <li>Đã thêm thông báo "Top Donator" ở đầu mọi trang</li>
+<li>Đã thêm liên kết đến trang Facebook cá nhân của Thiên Hương</li>
 </ul>
 
 <h5>Phiên bản 3.3</h5>
