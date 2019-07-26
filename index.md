@@ -104,6 +104,7 @@ house: active
 34birthday-month: 11
 34birthday-day: 16
 ---
+
 <div class="jumbotron jumbotron bg-cover">
         <h1 class="display-3 diemthitext">Welcome to {{ site.title }}</h1>
         <p class="lead diemthitext">{{ site.description }}</p>
@@ -960,6 +961,7 @@ Blog cá nhân</button>
 <li>Thay đổi màu sắc cuộc trò chuyện trong phần Chat thành màu vàng</li>
 <li>Đã cố định thanh menu ở góc trên màn hình</li>
 <li>Đã thêm phần "Top Donators" trên trang chủ</li>
+<li>Đã thêm thông báo "Top Donator" ở đầu mọi trang</li>
 </ul>
 
 <h5>Phiên bản 3.3</h5>
