@@ -26,7 +26,9 @@ github_username:  tunganh03
 # Build settings
 markdown: kramdown
 theme: minima
+# This will require each of these plugins automatically.
 plugins:
+  - jekyll-gist
   - jekyll-feed
   - jekyll-admin
 
