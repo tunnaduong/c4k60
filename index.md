@@ -915,6 +915,7 @@ setTimeout(b34, 1);
 <ul>
   <li><a href="https://facebook.com/ndhai1012">Nguyễn Đặng Hải</a> - 2$</li>
   <li><a href="https://facebook.com/ndhai1012">Nguyễn Đặng Hải</a> - 3$</li>
+  <li><a href="https://facebook.com/ndhai1012">Nguyễn Đặng Hải</a> - 3$</li>
 </ul>
 <p>Cảm ơn các bạn một lần nữa vì đã quan tâm và ủng hộ dự án này của mình! Nó có ý nghĩa về mặt tinh thần rất lớn đối với mình!</p>
 <h4><strong><i class="fas fa-user-check"></i> Ai tạo ra cái này?</strong></h4>
