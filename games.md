@@ -39,4 +39,11 @@ margin-bottom: 100px;">
   width: 200px; margin-right:10px;
 margin-bottom: 100px;">
 </a>
+	<a href="/games/templequest">
+<img src="	https://s3-eu-west-1.amazonaws.com/wanted5games-games-live/game-img/7850.png" alt="Temple Quest" style="border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px; margin-right:10px;
+margin-bottom: 100px;">
+</a>
 </center>
