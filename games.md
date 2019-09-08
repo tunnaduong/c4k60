@@ -38,3 +38,10 @@ margin-bottom: 100px;">
 margin-bottom: 100px;">
 </a>
 </center>
+<style>
+element.style {
+    margin-top: 0px;
+    width: 704px;
+    height: 160px;
+}
+</style>
