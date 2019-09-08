@@ -61,12 +61,10 @@ line-height: 100%;
 <h3><i class="far fa-calendar-alt"></i> Thời khoá biểu học hè - 11 Chuyên Nga</h3>
 <h5>Áp dụng từ ngày 19/7/2019</h5>
 <br/>
-<table class="table table-bordered equilibrium" cellspacing="0" cellpadding="0">
+<table class="table table-bordered">
 <thead>
     <tr class="table-active">
         <th class="table-light">
-        <span class="sup">1</span>
-        <span class="inf">2</span>
       </th>
         <th>Thứ 2</th>
         <th>Thứ 3</th>
@@ -104,6 +102,24 @@ line-height: 100%;
     <td class="table-danger">Toán</td>
     <td class="table-warning">Văn học</td>
 </tr>
+<tr>
+        <th class="table-active"></th>
+        <td class="table-info">Văn học</td>
+    <td class="table-info">Tiếng Nga</td>
+    <td class="table-info">Tiếng Anh</td>
+    <td class="table-danger">Vật lý</td>
+    <td class="table-danger">Thể dục</td>
+    <td class="table-warning">Hóa học</td>
+</tr>
+<tr>
+        <th class="table-active"></th>
+        <td class="table-info">Lịch sử</td>
+    <td class="table-info">Tin học</td>
+    <td class="table-info">Địa lý</td>
+    <td class="table-danger">Sinh học</td>
+    <td class="table-danger">GDQP</td>
+    <td class="table-warning">SINH HOẠT</td>
+</tr>
  <tr>
     <th class="table-active">Buổi chiều</th>
     <td class="table-info">(nghỉ)</td>
@@ -115,30 +131,6 @@ line-height: 100%;
 </tr>
 </tbody>
 </table>
-<table class="equilibrium" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td>
-        <span class="sup">1</span>
-        <span class="inf">2</span>
-      </td>
-      <td>
-        <span class="sup">1</span>
-        <span class="inf">2</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="sup">1</span>
-        <span class="inf">2</span>
-      </td>
-      <td>
-        <span class="sup">1</span>
-        <span class="inf">2</span>
-      </td>
-    </tr>
-  </tbody>
-<table>
 <br/>
 <h5><i class="fas fa-question-circle"></i> Chú giải:</h5>
 <p><a class="text-info">Màu xanh nước biển:</a> Giờ trống, có thể nghỉ</p>
