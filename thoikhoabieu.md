@@ -58,7 +58,7 @@ line-height: 100%;
   clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
 }
     </style>
-<h3><i class="far fa-calendar-alt"></i> Thời khoá biểu học hè - 11C4</h3>
+<h3><i class="far fa-calendar-alt"></i> Thời khoá biểu (Tuần 2) - 11C4</h3>
 <h5>Áp dụng từ ngày 09/09/2019</h5>
 <br/>
 <table class="table table-bordered">
