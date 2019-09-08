@@ -1,18 +1,8 @@
 ---
-title: Bài tập về nhà (09/09/2019)
+title: 1
 layout: post
 date: '2019-09-09 00:00:00'
 categories: btvn
 fbcomments: true
 tc: active
 ---
-BTVN: bắt đầu từ 9/9/2019
-• Toán đại: 1,2 sbt 1,2,3 sgk
-• Toán hình: bài 2/sgk & full sbt bài phép quay
-• Văn: chưa phải soạn
-• Nga: làm phần Тест của bài 30
-• Công nghệ: vẽ nốt hình 1.5 ở trang 9/sgk
-• Hóa + Anh + Sinh: ko có bài
-• Địa + Tin + GDQP: học bài cũ
-• Vật lý: full sgk và sbt bài 3
-• GDCD + Hóa: tóm tắt bài 1 đối với GDCD và bài 2 đối với Hóa
