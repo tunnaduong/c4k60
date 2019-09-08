@@ -6,8 +6,8 @@ categories: thongbaolop
 fbcomments: true
 tbl: active
 ---
-#### **Ngoại trừ những bạn có tên trong đây, những ai chưa nộp tiền quỹ hoa phượng đỏ cố gắng mang nộp càng sớm càng tốt đi nhá!!!
-P/s: cái này có lẽ t bị ghi thiếu đó ai nộp rồi mà chưa có tên ib tao nhá :v sorry vì sự bất tiện🙏🙏🙏**
+#### Ngoại trừ những bạn có tên trong đây, những ai chưa nộp tiền quỹ hoa phượng đỏ cố gắng mang nộp càng sớm càng tốt đi nhá!!!
+P/s: cái này có lẽ t bị ghi thiếu đó ai nộp rồi mà chưa có tên ib tao nhá :v sorry vì sự bất tiện🙏🙏🙏
 - Lâm
 - Văn
 - Thúy Hiền
