@@ -76,7 +76,7 @@ line-height: 100%;
 </thead>
 <tbody>
  <tr>
-    <th class="table-active">Buổi sáng</th>
+    <th class="table-active">Buổi sáng<br/>Tiết 1</th>
     <td class="table-info">CHÀO CỜ</td>
     <td class="table-info">Toán</td>
     <td class="table-info">Văn học</td>
@@ -85,7 +85,7 @@ line-height: 100%;
     <td class="table-warning">Vật lý</td>
     </tr>
     <tr>
-        <th class="table-active"></th>
+        <th class="table-active">Tiết 2</th>
         <td class="table-info">Toán</td>
     <td class="table-info">Toán</td>
     <td class="table-info">Công nghệ</td>
@@ -94,7 +94,7 @@ line-height: 100%;
     <td class="table-warning">Toán học</td>
 </tr>
 <tr>
-        <th class="table-active"></th>
+        <th class="table-active">Tiết 3</th>
         <td class="table-info">Văn học</td>
     <td class="table-info">Tiếng Nga</td>
     <td class="table-info">Hóa học</td>
@@ -103,7 +103,7 @@ line-height: 100%;
     <td class="table-warning">Văn học</td>
 </tr>
 <tr>
-        <th class="table-active"></th>
+        <th class="table-active">Tiết 4</th>
         <td class="table-info">Văn học</td>
     <td class="table-info">Tiếng Nga</td>
     <td class="table-info">Tiếng Anh</td>
@@ -112,7 +112,7 @@ line-height: 100%;
     <td class="table-warning">Hóa học</td>
 </tr>
 <tr>
-        <th class="table-active"></th>
+        <th class="table-active">Tiết 5</th>
         <td class="table-info">Lịch sử</td>
     <td class="table-info">Tin học</td>
     <td class="table-info">Địa lý</td>
