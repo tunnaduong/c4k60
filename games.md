@@ -6,7 +6,7 @@ games: active
 ---
 <h3><i class="fas fa-gamepad"></i> Games</h3>
 <br>
-<center>
+<center class="sm">
 	<a href="/games/zigzag">
 <img src="https://s3-eu-west-1.amazonaws.com/wanted5games-games-live/game-img/7960.png" alt="Zig Zag Line" style="border: 1px solid #ddd;
   border-radius: 4px;
@@ -29,7 +29,7 @@ margin-bottom: 100px;">
 margin-bottom: 100px;">
 </a>
 </center>
-<center>
+<center class="sm">
 	<a href="/games/ludolegend">
 <img src="	https://s3-eu-west-1.amazonaws.com/wanted5games-games-live/game-img/7745.png" alt="Ludo Legend" style="border: 1px solid #ddd;
   border-radius: 4px;
@@ -39,7 +39,7 @@ margin-bottom: 100px;">
 </a>
 </center>
 <style>
-element.style {
+sm {
     margin-top: 0px;
     width: 704px;
     height: 160px;
