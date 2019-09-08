@@ -8,11 +8,10 @@ games: active
 <br>
 <div>
 <h3>Zig Zag Line</h3>
-<img src="https://s3-eu-west-1.amazonaws.com/wanted5games-games-live/game-img/7960.png" alt="Zig Zag Line" style="  border: 1px solid #ddd;
+<img src="https://s3-eu-west-1.amazonaws.com/wanted5games-games-live/game-img/7960.png" alt="Zig Zag Line" style="border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 200px; float:left; margin-right:10px;
-margin-bottom: 100px;
-">
-<button>Chơi game</button>
+  width: 200px; margin-right:10px;
+margin-bottom: 100px;">
+<a href="/zigzag">Chơi game</a>
 </div>
