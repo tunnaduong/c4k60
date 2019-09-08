@@ -13,5 +13,5 @@ games: active
   padding: 5px;
   width: 200px; margin-right:10px;
 margin-bottom: 100px;">
-<a href="/zigzag">Chơi game</a>
+<a href="/games/zigzag">Chơi game</a>
 </div>
