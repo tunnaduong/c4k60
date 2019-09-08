@@ -4,6 +4,36 @@ title: Thời khoá biểu
 permalink: /thoikhoabieu/
 tkb: active
 ---
+<style>
+    table:nth-of-type(1) td {
+  background-image: linear-gradient(
+    to top right,
+    white 48%,
+    black,
+    white 52%
+  );
+}
+table:nth-of-type(2) td {
+  background-image: linear-gradient(
+    to top right,
+    papayawhip calc(50% - 1px),
+    black,
+    papayawhip calc(50% + 1px)
+  );
+}
+/* for testing */
+table {
+  border-collapse: collapse;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+td:nth-child(odd) {
+  width: 10em;
+}
+td:nth-child(even) {
+  width: 20em;
+}
+    </style>
 <h3><i class="far fa-calendar-alt"></i> Thời khoá biểu học hè - 11 Chuyên Nga</h3>
 <h5>Áp dụng từ ngày 19/7/2019</h5>
 <br/>
@@ -57,6 +87,30 @@ tkb: active
     <td class="table-info">(nghỉ)</td>
 </tr>
 </tbody>
+</table>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>Narrow</td>
+      <td>Wide</td>
+    </tr>
+    <tr>
+      <td>Narrow</td>
+      <td>Wide</td>
+    </tr>
+  </tbody>
+</table>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>Narrow</td>
+      <td>Wide</td>
+    </tr>
+    <tr>
+      <td>Narrow</td>
+      <td>Wide</td>
+    </tr>
+  </tbody>
 </table>
 <br/>
 <h5><i class="fas fa-question-circle"></i> Chú giải:</h5>
