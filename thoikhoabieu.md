@@ -22,12 +22,12 @@ tkb: active
 <tbody>
  <tr>
     <th class="table-active">Buổi sáng</th>
-    <td class="table-info">(nghỉ)</td>
-    <td class="table-info">(nghỉ)</td>
-    <td class="table-info">(nghỉ)</td>
-    <td class="table-danger">Tiếng Nga<br>(Cô Hoá)</td>
-    <td class="table-danger">Tiếng Nga<br>(Cô Thuý Trẻ)</td>
-    <td class="table-warning">Toán học<br>(N.Lệ)</td>
+    <td class="table-info">CHÀO CỜ</td>
+    <td class="table-info">Toán</td>
+    <td class="table-info">Văn học</td>
+    <td class="table-danger">Tiếng Nga</td>
+    <td class="table-danger">Tiếng Nga</td>
+    <td class="table-warning">Vật lý</td>
 </tr>
 
  <tr>
