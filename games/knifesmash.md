@@ -1,0 +1,11 @@
+---
+layout: default
+title: Knife Smash - Games C4K60
+permalink: /games/knifesmash/
+games: active
+---
+<h3><i class="fas fa-gamepad"></i> Games</h3>
+<br>
+<center>
+<iframe src="https://wanted5games.com/games/html5/knife-smash-new-en-s-iga-cloud/index.html?pub=10" name="cloudgames-com" width="500" height="603" frameborder="0" scrolling="no"></iframe>
+</center>
