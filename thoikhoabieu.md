@@ -61,10 +61,10 @@ line-height: 100%;
 <h3><i class="far fa-calendar-alt"></i> Thời khoá biểu học hè - 11 Chuyên Nga</h3>
 <h5>Áp dụng từ ngày 19/7/2019</h5>
 <br/>
-<table class="table table-bordered">
+<table class="table table-bordered equilibrium" cellspacing="0" cellpadding="0">
 <thead>
     <tr class="table-active">
-        <th>
+        <th class="table-light">
         <span class="sup">1</span>
         <span class="inf">2</span>
       </th>
