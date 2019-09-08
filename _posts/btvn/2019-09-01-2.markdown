@@ -1,7 +1,7 @@
 ---
 title: BTVN (09/01/2019)
 layout: btvn
-date: '2019-09-09 00:00:00'
+date: '2019-09-01 00:00:00'
 categories: btvn
 fbcomments: true
 tc: active
