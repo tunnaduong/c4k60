@@ -64,7 +64,10 @@ line-height: 100%;
 <table class="table table-bordered">
 <thead>
     <tr class="table-active">
-        <th class="table-light"></th>
+        <th>
+        <span class="sup">1</span>
+        <span class="inf">2</span>
+      </th>
         <th>Thứ 2</th>
         <th>Thứ 3</th>
         <th>Thứ 4</th>
