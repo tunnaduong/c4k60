@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Zig-Zag Line
-permalink: /games/zigzag/
+title: Road Fury - Games C4K60
+permalink: /games/roadfury/
 games: active
 ---
 <h3><i class="fas fa-gamepad"></i> Games</h3>

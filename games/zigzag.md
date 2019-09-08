@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Zig-Zag Line
+title: Zig-Zag Line - Games C4K60
 permalink: /games/zigzag/
 games: active
 ---
