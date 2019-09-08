@@ -30,6 +30,7 @@ tkb: active
     <td class="table-warning">Vật lý</td>
     </tr>
     <tr>
+        <th class="table-active"></th>
         <td class="table-info">CHÀO CỜ</td>
     <td class="table-info">Toán</td>
     <td class="table-info">Văn học</td>
