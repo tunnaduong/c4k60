@@ -63,5 +63,12 @@ margin-bottom: 100px;">
   width: 200px; margin-right:10px;
 margin-bottom: 100px;">
 </a>
+    <a href="/games/pizzaninja3">
+<img src="	https://s3-eu-west-1.amazonaws.com/wanted5games-games-live/game-img/6812.png" alt="Pizza Ninja 3" style="border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px; margin-right:10px;
+margin-bottom: 100px;">
+</a>
     </center>
 <br/>
