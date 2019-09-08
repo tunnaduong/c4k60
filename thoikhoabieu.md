@@ -5,33 +5,22 @@ permalink: /thoikhoabieu/
 tkb: active
 ---
 <style>
-    table:nth-of-type(1) td {
-  background-image: linear-gradient(
-    to top right,
-    white 48%,
-    black,
-    white 52%
-  );
+line-height: 100%;
+  text-align: center;
+  z-index: 1;
 }
-table:nth-of-type(2) td {
-  background-image: linear-gradient(
-    to top right,
-    papayawhip calc(50% - 1px),
-    black,
-    papayawhip calc(50% + 1px)
-  );
-}
-/* for testing */
-table {
-  border-collapse: collapse;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-td:nth-child(odd) {
-  width: 10em;
-}
-td:nth-child(even) {
-  width: 20em;
+
+.equilibrium td::after{
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,.5);
+  background-size: cover;
+  clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
 }
     </style>
 <h3><i class="far fa-calendar-alt"></i> Thời khoá biểu học hè - 11 Chuyên Nga</h3>
@@ -88,30 +77,30 @@ td:nth-child(even) {
 </tr>
 </tbody>
 </table>
-<table border="1">
+<table class="equilibrium" cellspacing="0" cellpadding="0">
   <tbody>
     <tr>
-      <td>Narrow</td>
-      <td>Wide</td>
+      <td>
+        <span class="sup">1</span>
+        <span class="inf">2</span>
+      </td>
+      <td>
+        <span class="sup">1</span>
+        <span class="inf">2</span>
+      </td>
     </tr>
     <tr>
-      <td>Narrow</td>
-      <td>Wide</td>
+      <td>
+        <span class="sup">1</span>
+        <span class="inf">2</span>
+      </td>
+      <td>
+        <span class="sup">1</span>
+        <span class="inf">2</span>
+      </td>
     </tr>
   </tbody>
-</table>
-<table border="1">
-  <tbody>
-    <tr>
-      <td>Narrow</td>
-      <td>Wide</td>
-    </tr>
-    <tr>
-      <td>Narrow</td>
-      <td>Wide</td>
-    </tr>
-  </tbody>
-</table>
+<table>
 <br/>
 <h5><i class="fas fa-question-circle"></i> Chú giải:</h5>
 <p><a class="text-info">Màu xanh nước biển:</a> Giờ trống, có thể nghỉ</p>
