@@ -86,48 +86,48 @@ line-height: 100%;
     </tr>
     <tr>
         <th class="table-active">Tiết 2</th>
-        <td class="table-info">Toán</td>
-    <td class="table-info">Toán</td>
-    <td class="table-info">Công nghệ</td>
-    <td class="table-danger">Thể dục</td>
+        <td class="table-warning">Toán</td>
+    <td class="table-warning">Toán</td>
+    <td class="table-success">Công nghệ</td>
+    <td class="table-info">Thể dục</td>
     <td class="table-danger">Tiếng Nga</td>
     <td class="table-warning">Toán học</td>
 </tr>
 <tr>
         <th class="table-active">Tiết 3</th>
-        <td class="table-info">Văn học</td>
-    <td class="table-info">Tiếng Nga</td>
-    <td class="table-info">Hóa học</td>
-    <td class="table-danger">GDCD</td>
-    <td class="table-danger">Toán</td>
+        <td class="table-warning">Văn học</td>
+    <td class="table-danger">Tiếng Nga</td>
+    <td class="table-danger">Hóa học</td>
+    <td class="table-info">GDCD</td>
+    <td class="table-warning">Toán</td>
     <td class="table-warning">Văn học</td>
 </tr>
 <tr>
         <th class="table-active">Tiết 4</th>
-        <td class="table-info">Văn học</td>
-    <td class="table-info">Tiếng Nga</td>
-    <td class="table-info">Tiếng Anh</td>
-    <td class="table-danger">Vật lý</td>
-    <td class="table-danger">Thể dục</td>
-    <td class="table-warning">Hóa học</td>
+        <td class="table-warning">Văn học</td>
+    <td class="table-danger">Tiếng Nga</td>
+    <td class="table-success">Tiếng Anh</td>
+    <td class="table-warning">Vật lý</td>
+    <td class="table-info">Thể dục</td>
+    <td class="table-danger">Hóa học</td>
 </tr>
 <tr>
         <th class="table-active">Tiết 5</th>
-        <td class="table-info">Lịch sử</td>
-    <td class="table-info">Tin học</td>
-    <td class="table-info">Địa lý</td>
-    <td class="table-danger">Sinh học</td>
-    <td class="table-danger">GDQP</td>
-    <td class="table-warning">SINH HOẠT</td>
+        <td class="table-success">Lịch sử</td>
+    <td class="table-success">Tin học</td>
+    <td class="table-success">Địa lý</td>
+    <td class="table-success">Sinh học</td>
+    <td class="table-info">GDQP</td>
+    <td class="table-info">SINH HOẠT</td>
 </tr>
  <tr>
     <th class="table-active">Buổi chiều</th>
     <td class="table-info">(nghỉ)</td>
-    <td class="table-info">Toán học</td>
+    <td class="table-warning">Toán học</td>
     <td class="table-info">(nghỉ)</td>
-    <td class="table-info">Tiếng Nga</td>
+    <td class="table-danger">Tiếng Nga</td>
     <td class="table-info">(nghỉ)</td>
-    <td class="table-info">Văn học</td>
+    <td class="table-warning">Văn học</td>
 </tr>
 </tbody>
 </table>
