@@ -4,7 +4,7 @@ layout: post
 date: '2019-09-09 00:00:00'
 categories: btvn
 fbcomments: true
-tbl: active
+tc: active
 ---
 BTVN: bắt đầu từ 9/9/2019
 • Toán đại: 1,2 sbt 1,2,3 sgk
