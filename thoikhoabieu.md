@@ -28,6 +28,8 @@ tkb: active
     <td class="table-danger">Tiếng Nga</td>
     <td class="table-danger">Tiếng Nga</td>
     <td class="table-warning">Vật lý</td>
+    </tr>
+    <tr>
         <td class="table-info">CHÀO CỜ</td>
     <td class="table-info">Toán</td>
     <td class="table-info">Văn học</td>
