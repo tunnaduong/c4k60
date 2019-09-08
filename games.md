@@ -6,7 +6,6 @@ games: active
 ---
 <h3><i class="fas fa-gamepad"></i> Games</h3>
 <br>
-<center>
 <div class="col-md-3 game">
                 <h3>Zig Zag Line</h3>
                 <div class="span6 image">
@@ -27,4 +26,3 @@ games: active
                     </a>
                 </div>
             </div>
-</center>
