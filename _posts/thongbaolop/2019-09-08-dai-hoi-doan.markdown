@@ -1,5 +1,5 @@
 ---
-title: Nhắc nhở nộp quỹ lớp
+title: Đại hội Đoàn
 layout: post
 date: '2019-07-24 22:04:33'
 categories: thongbaolop
