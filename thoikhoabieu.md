@@ -38,7 +38,15 @@ tkb: active
     <td class="table-danger">Tiếng Nga</td>
     <td class="table-warning">Toán học</td>
 </tr>
-
+<tr>
+        <th class="table-active"></th>
+        <td class="table-info">Văn học</td>
+    <td class="table-info">Tiếng Nga</td>
+    <td class="table-info">Hóa học</td>
+    <td class="table-danger">GDCD</td>
+    <td class="table-danger">Toán</td>
+    <td class="table-warning">Văn học</td>
+</tr>
  <tr>
     <th class="table-active">Buổi chiều</th>
     <td class="table-info">(nghỉ)</td>
