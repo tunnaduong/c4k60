@@ -10,6 +10,7 @@ tkb: active
   border: 1px solid #999;
   border-right: none;
   border-bottom: none;
+  background-color: rgba(236,236,236,.5);
 }
 
 .equilibrium td{
@@ -52,6 +53,7 @@ line-height: 100%;
   left: 0;
   width: 100%;
   height: 100%;
+  background-color: rgba(218,218,218,.5);
   background-size: cover;
   clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
 }
