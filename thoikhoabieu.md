@@ -5,6 +5,41 @@ permalink: /thoikhoabieu/
 tkb: active
 ---
 <style>
+.equilibrium{
+  width: 100%;
+  border: 1px solid #999;
+  border-right: none;
+  border-bottom: none;
+  background: #8bc34a;
+}
+
+.equilibrium td{
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.equilibrium td{
+  position: relative;
+  height: 200px;
+}
+
+.equilibrium .sup{
+  display: block;
+  position: relative;
+  width: 50%;
+  float: left;
+  padding-bottom: 15%;
+  line-height: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.equilibrium .inf{
+  display: block;
+  position: relative;
+  width: 50%;
+  float: left;
+  padding-top: 15%;
 line-height: 100%;
   text-align: center;
   z-index: 1;
