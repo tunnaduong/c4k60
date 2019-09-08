@@ -12,7 +12,7 @@ games: active
   border-radius: 4px;
   padding: 5px;
   width: 200px; float:left; margin-right:10px;
-margin-bottom: 10px;
+margin-bottom: 100px;
 ">
 <button>Chơi game</button>
 </div>
