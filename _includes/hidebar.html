@@ -1,0 +1,116 @@
+
+<style>
+ {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  border-radius: 10px;
+  background-color: #dbb926;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: -20px;
+  right: 4px;
+  width: 50px;
+-webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.4);
+box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.4);
+}
+/* The popup chat - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+	background-color:white;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+} 
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+    cursor: pointer;
+}
+.top-center {
+  position: absolute;
+top: -9px;
+right: 83px;
+    font-size:40px;
+      cursor: pointer;
+}
+.transparent {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+</style>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+
+window.scrollBy(0,50);
+
+scrolldelay = setTimeout('pageScroll()',200); //Increase this # to slow down, decrease to speed up scrolling
+
+
+}
+
+function hideBar() {
+  document.getElementById("navibar").style.display = "none";
+} 
+</script>
+<div class="open-button" style="display:block" id="hidebar"><i style="float:right;color:black;margin-top: 5px;" class="fas fa-power-off" onclick="hideBar()"></i></div>
+ <div class="form-popup shadow" id="myForm" style=" width:300px;height:400px;border-radius: 10px;">
