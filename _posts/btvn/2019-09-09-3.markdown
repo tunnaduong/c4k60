@@ -1,1 +1,11 @@
-
+---
+title: BTVN (09/09/2019)
+date: 2019-09-09 00:00:00
+layout: btvn
+categories: btvn
+fbcomment: true
+tc: active
+---
+Toán:
+- Bài 4,5,6,7 (Trang 29/SGK)
+- Bài 2 (Trang 36)
