@@ -9,3 +9,5 @@ tc: active
 Toán Đại:
 - Bài 4,5,6,7 (Trang 29/SGK)
 - Bài 2 (Trang 36)
+Ngữ Văn:
+- Soạn bài "Tự tình" - Hồ Xuân Hương
