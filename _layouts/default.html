@@ -3,21 +3,9 @@
 
   {% include head.html %}
   <body style="margin-top: 100px;">
-<script type="text/javascript">
-$(document).ready(function() {
-    // show the alert
-    setTimeout(function() {
-        $(".alert").alert('close');
-    }, 5000);
-});
-</script>
     {% include navbar.html %}
     {% include chatbar.html %}
 
-    <div class="alert alert-danger alert-dismissible fade show" id="danger-alert">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong><i class="fas fa-coffee"></i> Top Donator:</strong> <a href="https://facebook.com/ndhai1012">Nguyễn Đặng Hải</a> - 8$. Cảm ơn bạn vì đã ủng hộ! Đóng góp của bạn là động lực rất lớn để chúng tôi hoàn thiện trang web này.
-</div>
         {{ content }}
 
       {% include footer.html %}
