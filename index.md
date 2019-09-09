@@ -113,6 +113,8 @@ house: active
 
    <div class="row marketing" style="display:block">
         <div>
+          <h4><strong><i class="fas fa-question-circle"></i> Đây là gì?</strong></h4>
+<p>Chào mừng đến với cổng thông tin điện tử dành cho học sinh C4K60! Trang web này là công cụ để tra cứu dễ dàng các thông tin của lớp 11 Nga THPT Chuyên Hà Nam</p>
 <h4><strong><i class="fas fa-bullhorn"></i> Thông báo lớp</strong></h4>
 <div class="content list">
 {% if site.categories.thongbaolop.size == 1 %}
@@ -906,8 +908,7 @@ setTimeout(b34, 1);
 </script>
 <h5 id="today">Hôm nay không có sinh nhật nào diễn ra...</h5>
 <br>
-<h4><strong><i class="fas fa-question-circle"></i> Đây là gì?</strong></h4>
-<p>Chào mừng đến với cổng thông tin điện tử dành cho học sinh C4K60! Trang web này là công cụ để tra cứu dễ dàng các thông tin của lớp 11 Nga THPT Chuyên Hà Nam</p>
+
 </div>
 <h4><strong><i class="fas fa-comment-dollar"></i> Nó có miễn phí không?</strong></h4>
 <p>Tất nhiên rồi! Miễn phì từ nay và mãi mãi về sau! Tuy nhiên nếu bạn muốn ủng hộ người lập trình, bạn có thể donate một cốc cafe 1$ qua <a href="https://paypal.me/techup">PayPal</a> :)</p>
