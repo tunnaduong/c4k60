@@ -6,6 +6,6 @@ categories: btvn
 fbcomment: true
 tc: active
 ---
-Toán Đại:
+Toán Đại:  
 Full SGK bài 3  
 Bài 26, 27 SBT
