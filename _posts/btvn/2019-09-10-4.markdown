@@ -7,5 +7,5 @@ fbcomment: true
 tc: active
 ---
 Toán Đại:
-Full SGK bài 3
+Full SGK bài 3  
 Bài 26, 27 SBT
