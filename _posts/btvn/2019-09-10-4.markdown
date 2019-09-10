@@ -1,0 +1,11 @@
+---
+title: BTVN (10/09/2019)
+date: 2019-09-10 00:00:00
+layout: btvn
+categories: btvn
+fbcomment: true
+tc: active
+---
+Toán Đại:
+Full SGK bài 3
+Bài 26, 27 SBT
