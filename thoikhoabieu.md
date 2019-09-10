@@ -124,9 +124,9 @@ line-height: 100%;
     <th class="table-active">Buổi chiều</th>
     <td class="table-info">(nghỉ)</td>
     <td class="table-warning">Toán học</td>
-    <td class="table-info">(nghỉ)</td>
     <td class="table-danger">Tiếng Nga</td>
-    <td class="table-info">(nghỉ)</td>
+    <td class="table-danger">Tiếng Nga</td>
+    <td class="table-danger">Tiếng Nga</td>
     <td class="table-warning">Văn học</td>
 </tr>
 </tbody>
