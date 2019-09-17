@@ -81,11 +81,11 @@ margin-bottom: 100px;">
   width: 200px; margin-right:10px;
 margin-bottom: 100px;">
 </a>
-    </center>
-    <center style="    width: 704px;
+</center>
+<center style="width: 704px;
     height: 160px;">
-    <a href="/games/castledefense">
-<img src="  https://s3-eu-west-1.amazonaws.com/wanted5games-games-live/game-img/7685.png" alt="Castle Defense" style="border: 1px solid #ddd;
+<a href="/games/castledefense">
+<img src="https://s3-eu-west-1.amazonaws.com/wanted5games-games-live/game-img/7685.png" alt="Castle Defense" style="border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 200px; margin-right:10px;
