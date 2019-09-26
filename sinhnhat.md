@@ -23,8 +23,8 @@ snst: active
 6birthday-month: 12
 6birthday-day: 11
 7fname: Bùi Thu Hiền
-7birthday-month: 11
-7birthday-day: 10
+7birthday-month: 10
+7birthday-day: 11
 8fname: Nguyễn Thuý Hiền
 8birthday-month: 05
 8birthday-day: 17
