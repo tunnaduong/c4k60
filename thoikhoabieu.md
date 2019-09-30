@@ -58,8 +58,8 @@ line-height: 100%;
   clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
 }
     </style>
-<h3><i class="far fa-calendar-alt"></i> Thời khoá biểu (Tuần 4) - 11C4</h3>
-<h5>Áp dụng từ ngày 23/09/2019</h5>
+<h3><i class="far fa-calendar-alt"></i> Thời khoá biểu (Tuần 5) - 11C4</h3>
+<h5>Áp dụng từ ngày 29/09/2019</h5>
 <br/>
 <table class="table table-bordered">
 <thead>
@@ -124,9 +124,9 @@ line-height: 100%;
     <th class="table-active">Buổi chiều</th>
     <td class="table-info">(nghỉ)</td>
     <td class="table-warning">Toán học</td>
-    <td class="table-danger">Tiếng Nga</td>
-    <td class="table-danger">Tiếng Nga</td>
-    <td class="table-danger">Tiếng Nga</td>
+    <td class="table-warning">Tiếng Nga</td>
+    <td class="table-warning">Tiếng Nga</td>
+    <td class="table-warning">Tiếng Nga</td>
     <td class="table-warning">Văn học</td>
 </tr>
 </tbody>
