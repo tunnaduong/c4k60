@@ -79,9 +79,9 @@ line-height: 100%;
     <th class="table-active">Buổi sáng<br/>Tiết 1</th>
     <td class="table-info">CHÀO CỜ</td>
     <td class="table-warning">Văn học</td>
-    <td class="table-success">GDQP</td>
-    <td class="table-warning">Toán</td>
-    <td class="table-warning">Văn học</td>
+    <td class="table-danger">Vật lý</td>
+    <td class="table-info">Thể dục</td>
+    <td class="table-warning">Tiếng Nga</td>
     <td class="table-warning">Toán</td>
     </tr>
     <tr>
@@ -89,18 +89,18 @@ line-height: 100%;
         <td class="table-danger">Vật lý</td>
     <td class="table-warning">Văn học</td>
     <td class="table-info">Thể dục</td>
-    <td class="table-info">Toán</td>
+    <td class="table-warning">GDCD</td>
     <td class="table-warning">Nga</td>
     <td class="table-warning">Toán</td>
 </tr>
 <tr>
         <th class="table-active">Tiết 3</th>
-        <td class="table-info">Thể dục</td>
+        <td class="table-warning">Tiếng Nga</td>
     <td class="table-warning">Tiếng Nga</td>
-    <td class="table-danger">Vật lý</td>
-    <td class="table-success">GDCD</td>
-    <td class="table-warning">Tiếng Nga</td>
-    <td class="table-warning">Văn học</td>
+    <td class="table-info">GDQP</td>
+    <td class="table-warning">Toán</td>
+    <td class="table-warning">Toán</td>
+    <td class="table-success">Lịch sử</td>
 </tr>
 <tr>
         <th class="table-active">Tiết 4</th>
@@ -108,12 +108,12 @@ line-height: 100%;
     <td class="table-warning">Tiếng Nga</td>
     <td class="table-success">Tiếng Anh</td>
     <td class="table-warning">Sinh học</td>
+    <td class="table-warning">Văn học</td>
     <td class="table-success">Công nghệ</td>
-    <td class="table-warning">Tiếng Nga</td>
 </tr>
 <tr>
         <th class="table-active">Tiết 5</th>
-        <td class="table-success">Lịch sử</td>
+        <td class="table-warning">Văn học</td>
     <td class="table-success">Tin học</td>
     <td class="table-success">Địa lý</td>
     <td class="table-danger">Hoá học</td>
