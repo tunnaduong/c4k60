@@ -58,8 +58,8 @@ line-height: 100%;
   clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
 }
     </style>
-<h3><i class="far fa-calendar-alt"></i> Thời khoá biểu (Tuần 6) - 11C4</h3>
-<h5>Áp dụng từ ngày 07/10/2019</h5>
+<h3><i class="far fa-calendar-alt"></i> Thời khoá biểu (Tuần 8) - 11C4</h3>
+<h5>Áp dụng từ ngày 21/10/2019</h5>
 <br/>
 <table class="table table-bordered">
 <thead>
