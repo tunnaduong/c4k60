@@ -1,0 +1,9 @@
+---
+title: ABC
+layout: post
+date: '2019-10-21 22:04:33'
+categories: thongbaolop
+fbcomments: true
+tbl: active
+---
+ABCXYZ
