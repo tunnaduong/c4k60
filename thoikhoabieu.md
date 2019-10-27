@@ -90,7 +90,7 @@ line-height: 100%;
     <td class="table-warning">Văn học</td>
     <td class="table-info">Thể dục</td>
     <td class="table-warning">GDCD</td>
-    <td class="table-warning">Nga</td>
+    <td class="table-warning">Tiếng Nga</td>
     <td class="table-warning">Toán</td>
 </tr>
 <tr>
