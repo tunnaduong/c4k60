@@ -951,6 +951,14 @@ Blog cá nhân</button>
 
 <!-- START CONTENT -->
 <div id="content"><h4><strong><i class="fas fa-clipboard-check"></i> Những thay đổi</strong></h4>
+<h5>Phiên bản 3.5</h5>
+<p>Ngày phát hành: 24/01/2020</p>
+
+<ul>
+<li>Bản cập nhật đầu xuân năm mới Canh Tý 2020</li>
+<li>Đã thêm tính năng "Videos"</li>
+<li>Đã hoàn thiện tính năng "Games"</li>
+</ul>
 
 <h5>Phiên bản 3.4</h5>
 <p>Ngày phát hành: 25/07/2019</p>
