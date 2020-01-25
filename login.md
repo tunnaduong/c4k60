@@ -50,7 +50,6 @@ log: active
         </div>
     </div>
 
-</main>
 
 <br>
 <style>
