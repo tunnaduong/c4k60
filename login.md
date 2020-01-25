@@ -6,28 +6,31 @@ log: active
 ---
 <h3><i class="fas fa-sign-in-alt"></i> Đăng nhập</h3>
 <br>
-<div class="col-sm-6 col-sm-offset-3 form-box">
-                        	<div class="form-top">
-                        		<div class="form-top-left">
-                        			<h3>Đăng nhập vào hệ thống</h3>
-                            		<p>Điền tên tài khoản và mật khẩu để tiếp tục:</p>
-                        		</div>
-                        		<div class="form-top-right">
-                        			<i class="fa fa-key"></i>
-                        		</div>
-                            </div>
-                            <div class="form-bottom">
-			                    <form role="form" action="" method="post" class="login-form">
-			                    	<div class="form-group">
-			                    		<label class="sr-only" for="form-username">Tên đăng nhập</label>
-			                        	<input type="text" name="form-username" placeholder="Tên đăng nhập..." class="form-username form-control" id="form-username">
-			                        </div>
-			                        <div class="form-group">
-			                        	<label class="sr-only" for="form-password">Mật khẩu</label>
-			                        	<input type="password" name="form-password" placeholder="Mật khẩu..." class="form-password form-control" id="form-password">
-			                        </div>
-			                        <button type="submit" class="btn">Đăng nhập</button>
-			                    </form>
-		                    </div>
-                        </div>
+<div class="wrap-login100">
+				<form class="login100-form validate-form" action="authenticate.php" method="POST">
+					<span class="login100-form-title p-b-26">
+						Sign in to continue
+					</span>
+					<div class="wrap-input100 validate-input" data-validate="Valid email is: a@b.c">
+						<input class="input100" type="text" name="username">
+						<span class="focus-input100" data-placeholder="Username"></span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input class="input100" type="password" name="password">
+						<span class="focus-input100" data-placeholder="Password"></span>
+					</div>
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								Login
+							</button>
+						</div>
+					</div>
+				</form>
+				<center style="padding-top:20px;"><a href="register.html">Don't have an account? Sign up here...</a></center>
+			</div>
                         <br>
