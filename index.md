@@ -104,18 +104,36 @@ house: active
 34birthday-month: 11
 34birthday-day: 16
 ---
-<div class="carousel-item">
-  <img src="anhlop11.jpg" alt="Los Angeles">
-  <div class="carousel-caption">
-    <h3>Los Angeles</h3>
-    <p>We had such a great time in LA!</p>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/1.jpg" alt="First slide">
+	   <div class="carousel-caption d-none d-md-block">
+    <h5>Welcome to {{ site.title }}</h5>
+    <p>{{ site.description }}</p>
   </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-<div class="jumbotron jumbotron bg-cover">
-        <h1 class="display-3 diemthitext">Welcome to {{ site.title }}</h1>
-        <p class="lead diemthitext">{{ site.description }}</p>
-
-  </div>
 
    <div class="row marketing" style="display:block">
         <div>
