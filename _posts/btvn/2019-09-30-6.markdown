@@ -1,9 +1,0 @@
----
-title: BTVN (30/09/2019)
-date: 2019-09-30 00:00:00
-layout: btvn
-categories: btvn
-fbcomment: true
-tc: active
----
-Toán đại: Full SBT Toán Ôn tập chương I trang 40
