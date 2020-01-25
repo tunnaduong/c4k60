@@ -49,14 +49,11 @@ log: active
             </div>
         </div>
     </div>
-    </div>
 
 </main>
 
 <br>
 <style>
-	@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
-
 
 body{
     margin: 0;
