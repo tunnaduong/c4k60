@@ -6,13 +6,6 @@ log: active
 ---
 <h3><i class="fas fa-sign-in-alt"></i> Đăng nhập</h3>
 <br>
-<main class="login-form">
-    <div class="cotainer">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Register</div>
-                    <div class="card-body">
                         <form action="" method="">
                             <div class="form-group row">
                                 <label for="email_address" class="col-md-4 col-form-label text-md-right">E-Mail Address</label>
@@ -45,11 +38,6 @@ log: active
                             </div>
                     </div>
                     </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
 <br>
 <style>
