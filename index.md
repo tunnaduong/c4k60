@@ -976,6 +976,8 @@ Blog cá nhân</button>
 <li>Bản cập nhật đầu xuân năm mới Canh Tý 2020</li>
 <li>Đã thêm tính năng "Videos"</li>
 <li>Đã hoàn thiện tính năng "Games"</li>
+<li>Đã xoá bỏ hình ảnh ở đầu trang</li>
+<li>Đã thêm Carousel ở đầu trang</li>
 </ul>
 
 <h5>Phiên bản 3.4</h5>
