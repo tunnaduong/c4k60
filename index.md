@@ -979,6 +979,7 @@ Blog cá nhân</button>
 <li>Đã xoá bỏ hình ảnh ở đầu trang</li>
 <li>Đã thêm Carousel ở đầu trang</li>
 <li>Đã thêm trang Đăng nhập</li>
+<li>Đã redesign lại navbar</li>
 </ul>
 
 <h5>Phiên bản 3.4</h5>
