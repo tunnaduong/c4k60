@@ -980,6 +980,7 @@ Blog cá nhân</button>
 <li>Đã thêm Carousel ở đầu trang</li>
 <li>Đã thêm trang Đăng nhập</li>
 <li>Đã redesign lại navbar</li>
+<li>Đã thêm mục Thời khoá biểu</li>
 </ul>
 
 <h5>Phiên bản 3.4</h5>
