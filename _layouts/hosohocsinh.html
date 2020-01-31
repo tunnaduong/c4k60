@@ -107,6 +107,12 @@ font-size: 2rem;
     </style>
 <SCRIPT>
 function passWord(){
+document.getElementById('body').onkeyup = function(e) {
+  if (e.keyCode === 13) {
+    document.getElementById('myform').submit(); // your form has an id="form"
+  }
+  return true;
+ }
 var password = document.getElementById('password').value;
 if (password == "ilovec4k60") {
 document.getElementById('passwordform').style.display = "none";
@@ -114,19 +120,10 @@ document.getElementById('protected').style.display = "block";
 }
 else {
 document.getElementById('wrong').style.display = "block";
-}
-}
-// Execute a function when the user releases a key on the keyboard
-input.addEventListener("keyup", function(event) {
-  // Number 13 is the "Enter" key on the keyboard
-  if (event.keyCode === 13) {
-    // Cancel the default action, if needed
-    event.preventDefault();
-    // Trigger the button element with a click
-    document.getElementById("unlock").click();
-  }
-}); 
-</SCRIPT>
+}		
+}				
+}); 	
+</SCRIPT>			
 
 <h3><i class="fas fa-search"></i> Hồ sơ học sinh</h3>
 
@@ -139,7 +136,7 @@ input.addEventListener("keyup", function(event) {
 
         <hr class="staticrypt-hr">
 
-        <form>
+        <form name="myform">
             <input id="password"
                    type="password"
                    placeholder="Nhập mật khẩu"/>
